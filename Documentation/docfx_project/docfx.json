@@ -5,7 +5,8 @@
         {
           "files": [
             "bin/Debug/net7.0/Game.xml"
-          ]
+          ],
+          "srs": "../../"
         }
       ],
       "dest": "api",

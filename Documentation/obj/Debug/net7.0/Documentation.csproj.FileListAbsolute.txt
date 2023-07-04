@@ -1,0 +1,15 @@
+C:\Users\dadaP\source\repos\MathGame\Documentation\bin\Debug\net7.0\Documentation.exe
+C:\Users\dadaP\source\repos\MathGame\Documentation\bin\Debug\net7.0\Documentation.deps.json
+C:\Users\dadaP\source\repos\MathGame\Documentation\bin\Debug\net7.0\Documentation.runtimeconfig.json
+C:\Users\dadaP\source\repos\MathGame\Documentation\bin\Debug\net7.0\Documentation.dll
+C:\Users\dadaP\source\repos\MathGame\Documentation\bin\Debug\net7.0\Documentation.pdb
+C:\Users\dadaP\source\repos\MathGame\Documentation\obj\Debug\net7.0\Documentation.csproj.AssemblyReference.cache
+C:\Users\dadaP\source\repos\MathGame\Documentation\obj\Debug\net7.0\Documentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dadaP\source\repos\MathGame\Documentation\obj\Debug\net7.0\Documentation.AssemblyInfoInputs.cache
+C:\Users\dadaP\source\repos\MathGame\Documentation\obj\Debug\net7.0\Documentation.AssemblyInfo.cs
+C:\Users\dadaP\source\repos\MathGame\Documentation\obj\Debug\net7.0\Documentation.csproj.CoreCompileInputs.cache
+C:\Users\dadaP\source\repos\MathGame\Documentation\obj\Debug\net7.0\Documentation.dll
+C:\Users\dadaP\source\repos\MathGame\Documentation\obj\Debug\net7.0\refint\Documentation.dll
+C:\Users\dadaP\source\repos\MathGame\Documentation\obj\Debug\net7.0\Documentation.pdb
+C:\Users\dadaP\source\repos\MathGame\Documentation\obj\Debug\net7.0\Documentation.genruntimeconfig.cache
+C:\Users\dadaP\source\repos\MathGame\Documentation\obj\Debug\net7.0\ref\Documentation.dll
