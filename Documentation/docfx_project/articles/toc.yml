@@ -1,0 +1,8 @@
+- name: Introduction
+  href: intro.md
+- name: SelectionFromMenu
+  items:
+    - name: Use Case
+      href: SelectionFromMenu/UC.md
+    - name: System Sequence Diagram
+      href: SelectionFromMenu/SSD.md

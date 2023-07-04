@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/P+5Wlq2LCgVFAdEjCQtMKRNlbqP6HSvuiCFvM5OMAEPvVzQv4++RQWwbziYUx7cXo466MZmsVFmdVVfyDZi4g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dadaP\\source\\repos\\MathGame\\Game\\Game.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dadaP\\.nuget\\packages\\spectre.console\\0.47.0\\spectre.console.0.47.0.nupkg.sha512",
+    "C:\\Users\\dadaP\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}
