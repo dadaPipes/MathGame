@@ -1,0 +1,47 @@
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Visual Studio
+bin/
+obj/
+Debug/
+Release/
+*.suo
+*.user
+*.vs
+
+# C# specific
+*.dll
+*.exe
+*.pdb
+*.userprefs
+*.bak
+*.tmp
+
+# Package/Dependency managers
+node_modules/
+packages/
+npm-debug.log
+yarn-error.log
+
+# Build output
+[Oo]ut/
+[Dd]ist/
+[Oo]bj/
+
+# Editor-specific files
+.DS_Store
+Thumbs.db
+
+# Visual Studio solution and project files
+*.sln
+*.csproj
+*.vcxproj
+*.vbproj
+*.fsproj
+*.xproj
+
+# NuGet
+*.nuget.props
+*.nuget.targets
