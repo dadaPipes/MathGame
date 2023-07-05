@@ -1,0 +1,901 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class MultiSelectionPromptExtensions
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class MultiSelectionPromptExtensions
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Spectre.Console.MultiSelectionPromptExtensions">
+
+
+
+  <h1 id="Spectre_Console_MultiSelectionPromptExtensions" data-uid="Spectre.Console.MultiSelectionPromptExtensions" class="text-break">
+    Class MultiSelectionPromptExtensions
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Spectre.html">Spectre</a>.<a class="xref" href="Spectre.Console.html">Console</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Spectre.Console.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class MultiSelectionPromptExtensions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">MultiSelectionPromptExtensions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Spectre_Console_MultiSelectionPromptExtensions_AddChoiceGroup_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.AddChoiceGroup*"></a>
+
+  <h3 id="Spectre_Console_MultiSelectionPromptExtensions_AddChoiceGroup__1_Spectre_Console_MultiSelectionPrompt___0____0_System_Collections_Generic_IEnumerable___0__" data-uid="Spectre.Console.MultiSelectionPromptExtensions.AddChoiceGroup``1(Spectre.Console.MultiSelectionPrompt{``0},``0,System.Collections.Generic.IEnumerable{``0})">
+  AddChoiceGroup&lt;T&gt;(MultiSelectionPrompt&lt;T&gt;, T, IEnumerable&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MultiSelectionPrompt&lt;T&gt; AddChoiceGroup&lt;T&gt;(this MultiSelectionPrompt&lt;T&gt; obj, T group, IEnumerable&lt;T&gt; choices) where T : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>group</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>choices</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_MultiSelectionPromptExtensions_AddChoiceGroup_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.AddChoiceGroup*"></a>
+
+  <h3 id="Spectre_Console_MultiSelectionPromptExtensions_AddChoiceGroup__1_Spectre_Console_MultiSelectionPrompt___0____0___0___" data-uid="Spectre.Console.MultiSelectionPromptExtensions.AddChoiceGroup``1(Spectre.Console.MultiSelectionPrompt{``0},``0,``0[])">
+  AddChoiceGroup&lt;T&gt;(MultiSelectionPrompt&lt;T&gt;, T, params T[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MultiSelectionPrompt&lt;T&gt; AddChoiceGroup&lt;T&gt;(this MultiSelectionPrompt&lt;T&gt; obj, T group, params T[] choices) where T : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>group</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>choices</code> T[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_MultiSelectionPromptExtensions_AddChoices_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.AddChoices*"></a>
+
+  <h3 id="Spectre_Console_MultiSelectionPromptExtensions_AddChoices__1_Spectre_Console_MultiSelectionPrompt___0__System_Collections_Generic_IEnumerable___0__" data-uid="Spectre.Console.MultiSelectionPromptExtensions.AddChoices``1(Spectre.Console.MultiSelectionPrompt{``0},System.Collections.Generic.IEnumerable{``0})">
+  AddChoices&lt;T&gt;(MultiSelectionPrompt&lt;T&gt;, IEnumerable&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MultiSelectionPrompt&lt;T&gt; AddChoices&lt;T&gt;(this MultiSelectionPrompt&lt;T&gt; obj, IEnumerable&lt;T&gt; choices) where T : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>choices</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_MultiSelectionPromptExtensions_AddChoices_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.AddChoices*"></a>
+
+  <h3 id="Spectre_Console_MultiSelectionPromptExtensions_AddChoices__1_Spectre_Console_MultiSelectionPrompt___0____0_System_Action_Spectre_Console_IMultiSelectionItem___0___" data-uid="Spectre.Console.MultiSelectionPromptExtensions.AddChoices``1(Spectre.Console.MultiSelectionPrompt{``0},``0,System.Action{Spectre.Console.IMultiSelectionItem{``0}})">
+  AddChoices&lt;T&gt;(MultiSelectionPrompt&lt;T&gt;, T, Action&lt;IMultiSelectionItem&lt;T&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MultiSelectionPrompt&lt;T&gt; AddChoices&lt;T&gt;(this MultiSelectionPrompt&lt;T&gt; obj, T choice, Action&lt;IMultiSelectionItem&lt;T&gt;&gt; configurator) where T : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>choice</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>configurator</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Spectre.Console.IMultiSelectionItem-1.html">IMultiSelectionItem</a>&lt;T&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_MultiSelectionPromptExtensions_AddChoices_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.AddChoices*"></a>
+
+  <h3 id="Spectre_Console_MultiSelectionPromptExtensions_AddChoices__1_Spectre_Console_MultiSelectionPrompt___0____0___" data-uid="Spectre.Console.MultiSelectionPromptExtensions.AddChoices``1(Spectre.Console.MultiSelectionPrompt{``0},``0[])">
+  AddChoices&lt;T&gt;(MultiSelectionPrompt&lt;T&gt;, params T[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MultiSelectionPrompt&lt;T&gt; AddChoices&lt;T&gt;(this MultiSelectionPrompt&lt;T&gt; obj, params T[] choices) where T : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>choices</code> T[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_MultiSelectionPromptExtensions_HighlightStyle_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.HighlightStyle*"></a>
+
+  <h3 id="Spectre_Console_MultiSelectionPromptExtensions_HighlightStyle__1_Spectre_Console_MultiSelectionPrompt___0__Spectre_Console_Style_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.HighlightStyle``1(Spectre.Console.MultiSelectionPrompt{``0},Spectre.Console.Style)">
+  HighlightStyle&lt;T&gt;(MultiSelectionPrompt&lt;T&gt;, Style)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MultiSelectionPrompt&lt;T&gt; HighlightStyle&lt;T&gt;(this MultiSelectionPrompt&lt;T&gt; obj, Style highlightStyle) where T : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>highlightStyle</code> <a class="xref" href="Spectre.Console.Style.html">Style</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_MultiSelectionPromptExtensions_InstructionsText_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.InstructionsText*"></a>
+
+  <h3 id="Spectre_Console_MultiSelectionPromptExtensions_InstructionsText__1_Spectre_Console_MultiSelectionPrompt___0__System_String_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.InstructionsText``1(Spectre.Console.MultiSelectionPrompt{``0},System.String)">
+  InstructionsText&lt;T&gt;(MultiSelectionPrompt&lt;T&gt;, string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MultiSelectionPrompt&lt;T&gt; InstructionsText&lt;T&gt;(this MultiSelectionPrompt&lt;T&gt; obj, string? text) where T : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_MultiSelectionPromptExtensions_Mode_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.Mode*"></a>
+
+  <h3 id="Spectre_Console_MultiSelectionPromptExtensions_Mode__1_Spectre_Console_MultiSelectionPrompt___0__Spectre_Console_SelectionMode_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.Mode``1(Spectre.Console.MultiSelectionPrompt{``0},Spectre.Console.SelectionMode)">
+  Mode&lt;T&gt;(MultiSelectionPrompt&lt;T&gt;, SelectionMode)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MultiSelectionPrompt&lt;T&gt; Mode&lt;T&gt;(this MultiSelectionPrompt&lt;T&gt; obj, SelectionMode mode) where T : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>mode</code> <a class="xref" href="Spectre.Console.SelectionMode.html">SelectionMode</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_MultiSelectionPromptExtensions_MoreChoicesText_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.MoreChoicesText*"></a>
+
+  <h3 id="Spectre_Console_MultiSelectionPromptExtensions_MoreChoicesText__1_Spectre_Console_MultiSelectionPrompt___0__System_String_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.MoreChoicesText``1(Spectre.Console.MultiSelectionPrompt{``0},System.String)">
+  MoreChoicesText&lt;T&gt;(MultiSelectionPrompt&lt;T&gt;, string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MultiSelectionPrompt&lt;T&gt; MoreChoicesText&lt;T&gt;(this MultiSelectionPrompt&lt;T&gt; obj, string? text) where T : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_MultiSelectionPromptExtensions_NotRequired_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.NotRequired*"></a>
+
+  <h3 id="Spectre_Console_MultiSelectionPromptExtensions_NotRequired__1_Spectre_Console_MultiSelectionPrompt___0__" data-uid="Spectre.Console.MultiSelectionPromptExtensions.NotRequired``1(Spectre.Console.MultiSelectionPrompt{``0})">
+  NotRequired&lt;T&gt;(MultiSelectionPrompt&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MultiSelectionPrompt&lt;T&gt; NotRequired&lt;T&gt;(this MultiSelectionPrompt&lt;T&gt; obj) where T : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_MultiSelectionPromptExtensions_PageSize_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.PageSize*"></a>
+
+  <h3 id="Spectre_Console_MultiSelectionPromptExtensions_PageSize__1_Spectre_Console_MultiSelectionPrompt___0__System_Int32_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.PageSize``1(Spectre.Console.MultiSelectionPrompt{``0},System.Int32)">
+  PageSize&lt;T&gt;(MultiSelectionPrompt&lt;T&gt;, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MultiSelectionPrompt&lt;T&gt; PageSize&lt;T&gt;(this MultiSelectionPrompt&lt;T&gt; obj, int pageSize) where T : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>pageSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_MultiSelectionPromptExtensions_Required_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.Required*"></a>
+
+  <h3 id="Spectre_Console_MultiSelectionPromptExtensions_Required__1_Spectre_Console_MultiSelectionPrompt___0__" data-uid="Spectre.Console.MultiSelectionPromptExtensions.Required``1(Spectre.Console.MultiSelectionPrompt{``0})">
+  Required&lt;T&gt;(MultiSelectionPrompt&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MultiSelectionPrompt&lt;T&gt; Required&lt;T&gt;(this MultiSelectionPrompt&lt;T&gt; obj) where T : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_MultiSelectionPromptExtensions_Required_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.Required*"></a>
+
+  <h3 id="Spectre_Console_MultiSelectionPromptExtensions_Required__1_Spectre_Console_MultiSelectionPrompt___0__System_Boolean_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.Required``1(Spectre.Console.MultiSelectionPrompt{``0},System.Boolean)">
+  Required&lt;T&gt;(MultiSelectionPrompt&lt;T&gt;, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MultiSelectionPrompt&lt;T&gt; Required&lt;T&gt;(this MultiSelectionPrompt&lt;T&gt; obj, bool required) where T : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>required</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_MultiSelectionPromptExtensions_Select_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.Select*"></a>
+
+  <h3 id="Spectre_Console_MultiSelectionPromptExtensions_Select__1_Spectre_Console_MultiSelectionPrompt___0____0_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.Select``1(Spectre.Console.MultiSelectionPrompt{``0},``0)">
+  Select&lt;T&gt;(MultiSelectionPrompt&lt;T&gt;, T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MultiSelectionPrompt&lt;T&gt; Select&lt;T&gt;(this MultiSelectionPrompt&lt;T&gt; obj, T item) where T : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>item</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_MultiSelectionPromptExtensions_Title_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.Title*"></a>
+
+  <h3 id="Spectre_Console_MultiSelectionPromptExtensions_Title__1_Spectre_Console_MultiSelectionPrompt___0__System_String_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.Title``1(Spectre.Console.MultiSelectionPrompt{``0},System.String)">
+  Title&lt;T&gt;(MultiSelectionPrompt&lt;T&gt;, string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MultiSelectionPrompt&lt;T&gt; Title&lt;T&gt;(this MultiSelectionPrompt&lt;T&gt; obj, string? title) where T : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_MultiSelectionPromptExtensions_UseConverter_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.UseConverter*"></a>
+
+  <h3 id="Spectre_Console_MultiSelectionPromptExtensions_UseConverter__1_Spectre_Console_MultiSelectionPrompt___0__System_Func___0_System_String__" data-uid="Spectre.Console.MultiSelectionPromptExtensions.UseConverter``1(Spectre.Console.MultiSelectionPrompt{``0},System.Func{``0,System.String})">
+  UseConverter&lt;T&gt;(MultiSelectionPrompt&lt;T&gt;, Func&lt;T, string&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MultiSelectionPrompt&lt;T&gt; UseConverter&lt;T&gt;(this MultiSelectionPrompt&lt;T&gt; obj, Func&lt;T, string&gt;? displaySelector) where T : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>displaySelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_MultiSelectionPromptExtensions_WrapAround_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.WrapAround*"></a>
+
+  <h3 id="Spectre_Console_MultiSelectionPromptExtensions_WrapAround__1_Spectre_Console_MultiSelectionPrompt___0__System_Boolean_" data-uid="Spectre.Console.MultiSelectionPromptExtensions.WrapAround``1(Spectre.Console.MultiSelectionPrompt{``0},System.Boolean)">
+  WrapAround&lt;T&gt;(MultiSelectionPrompt&lt;T&gt;, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MultiSelectionPrompt&lt;T&gt; WrapAround&lt;T&gt;(this MultiSelectionPrompt&lt;T&gt; obj, bool shouldWrap = true) where T : notnull</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>shouldWrap</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.MultiSelectionPrompt-1.html">MultiSelectionPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

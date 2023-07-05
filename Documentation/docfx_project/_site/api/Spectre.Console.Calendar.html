@@ -1,0 +1,809 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Calendar
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Calendar
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Spectre.Console.Calendar">
+
+
+
+  <h1 id="Spectre_Console_Calendar" data-uid="Spectre.Console.Calendar" class="text-break">
+    Class Calendar
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Spectre.html">Spectre</a>.<a class="xref" href="Spectre.Console.html">Console</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Spectre.Console.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class Calendar : JustInTimeRenderable, IRenderable, IHasCulture, IHasTableBorder, IHasBorder, IAlignable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="Spectre.Console.Rendering.Renderable.html">Renderable</a></div>
+      <div><a class="xref" href="Spectre.Console.Rendering.JustInTimeRenderable.html">JustInTimeRenderable</a></div>
+      <div><span class="xref">Calendar</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Spectre.Console.Rendering.IRenderable.html">IRenderable</a></div>
+      <div><a class="xref" href="Spectre.Console.IHasCulture.html">IHasCulture</a></div>
+      <div><a class="xref" href="Spectre.Console.IHasTableBorder.html">IHasTableBorder</a></div>
+      <div><a class="xref" href="Spectre.Console.IHasBorder.html">IHasBorder</a></div>
+      <div><a class="xref" href="Spectre.Console.IAlignable.html">IAlignable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Spectre.Console.AlignableExtensions.html#Spectre_Console_AlignableExtensions_Alignment__1___0_System_Nullable_Spectre_Console_Justify__">AlignableExtensions.Alignment&lt;T&gt;(T, Justify?)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AlignableExtensions.html#Spectre_Console_AlignableExtensions_Centered__1___0_">AlignableExtensions.Centered&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AlignableExtensions.html#Spectre_Console_AlignableExtensions_LeftAligned__1___0_">AlignableExtensions.LeftAligned&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AlignableExtensions.html#Spectre_Console_AlignableExtensions_RightAligned__1___0_">AlignableExtensions.RightAligned&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.CalendarExtensions.html#Spectre_Console_CalendarExtensions_AddCalendarEvent_Spectre_Console_Calendar_System_DateTime_">CalendarExtensions.AddCalendarEvent(Calendar, DateTime)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.CalendarExtensions.html#Spectre_Console_CalendarExtensions_AddCalendarEvent_Spectre_Console_Calendar_System_Int32_System_Int32_System_Int32_">CalendarExtensions.AddCalendarEvent(Calendar, int, int, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.CalendarExtensions.html#Spectre_Console_CalendarExtensions_AddCalendarEvent_Spectre_Console_Calendar_System_String_System_DateTime_">CalendarExtensions.AddCalendarEvent(Calendar, string, DateTime)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.CalendarExtensions.html#Spectre_Console_CalendarExtensions_AddCalendarEvent_Spectre_Console_Calendar_System_String_System_Int32_System_Int32_System_Int32_">CalendarExtensions.AddCalendarEvent(Calendar, string, int, int, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.CalendarExtensions.html#Spectre_Console_CalendarExtensions_HeaderStyle_Spectre_Console_Calendar_Spectre_Console_Style_">CalendarExtensions.HeaderStyle(Calendar, Style?)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.CalendarExtensions.html#Spectre_Console_CalendarExtensions_HideHeader_Spectre_Console_Calendar_">CalendarExtensions.HideHeader(Calendar)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.CalendarExtensions.html#Spectre_Console_CalendarExtensions_HighlightStyle_Spectre_Console_Calendar_Spectre_Console_Style_">CalendarExtensions.HighlightStyle(Calendar, Style?)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.CalendarExtensions.html#Spectre_Console_CalendarExtensions_ShowHeader_Spectre_Console_Calendar_">CalendarExtensions.ShowHeader(Calendar)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasBorderExtensions.html#Spectre_Console_HasBorderExtensions_BorderColor__1___0_Spectre_Console_Color_">HasBorderExtensions.BorderColor&lt;T&gt;(T, Color)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasBorderExtensions.html#Spectre_Console_HasBorderExtensions_BorderStyle__1___0_Spectre_Console_Style_">HasBorderExtensions.BorderStyle&lt;T&gt;(T, Style)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasBorderExtensions.html#Spectre_Console_HasBorderExtensions_NoSafeBorder__1___0_">HasBorderExtensions.NoSafeBorder&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasBorderExtensions.html#Spectre_Console_HasBorderExtensions_SafeBorder__1___0_">HasBorderExtensions.SafeBorder&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasCultureExtensions.html#Spectre_Console_HasCultureExtensions_Culture__1___0_System_Globalization_CultureInfo_">HasCultureExtensions.Culture&lt;T&gt;(T, CultureInfo)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasCultureExtensions.html#Spectre_Console_HasCultureExtensions_Culture__1___0_System_Int32_">HasCultureExtensions.Culture&lt;T&gt;(T, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasCultureExtensions.html#Spectre_Console_HasCultureExtensions_Culture__1___0_System_String_">HasCultureExtensions.Culture&lt;T&gt;(T, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasTableBorderExtensions.html#Spectre_Console_HasTableBorderExtensions_Ascii2Border__1___0_">HasTableBorderExtensions.Ascii2Border&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasTableBorderExtensions.html#Spectre_Console_HasTableBorderExtensions_AsciiBorder__1___0_">HasTableBorderExtensions.AsciiBorder&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasTableBorderExtensions.html#Spectre_Console_HasTableBorderExtensions_AsciiDoubleHeadBorder__1___0_">HasTableBorderExtensions.AsciiDoubleHeadBorder&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasTableBorderExtensions.html#Spectre_Console_HasTableBorderExtensions_Border__1___0_Spectre_Console_TableBorder_">HasTableBorderExtensions.Border&lt;T&gt;(T, TableBorder)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasTableBorderExtensions.html#Spectre_Console_HasTableBorderExtensions_DoubleBorder__1___0_">HasTableBorderExtensions.DoubleBorder&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasTableBorderExtensions.html#Spectre_Console_HasTableBorderExtensions_DoubleEdgeBorder__1___0_">HasTableBorderExtensions.DoubleEdgeBorder&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasTableBorderExtensions.html#Spectre_Console_HasTableBorderExtensions_HeavyBorder__1___0_">HasTableBorderExtensions.HeavyBorder&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasTableBorderExtensions.html#Spectre_Console_HasTableBorderExtensions_HeavyEdgeBorder__1___0_">HasTableBorderExtensions.HeavyEdgeBorder&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasTableBorderExtensions.html#Spectre_Console_HasTableBorderExtensions_HeavyHeadBorder__1___0_">HasTableBorderExtensions.HeavyHeadBorder&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasTableBorderExtensions.html#Spectre_Console_HasTableBorderExtensions_HorizontalBorder__1___0_">HasTableBorderExtensions.HorizontalBorder&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasTableBorderExtensions.html#Spectre_Console_HasTableBorderExtensions_MarkdownBorder__1___0_">HasTableBorderExtensions.MarkdownBorder&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasTableBorderExtensions.html#Spectre_Console_HasTableBorderExtensions_MinimalBorder__1___0_">HasTableBorderExtensions.MinimalBorder&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasTableBorderExtensions.html#Spectre_Console_HasTableBorderExtensions_MinimalDoubleHeadBorder__1___0_">HasTableBorderExtensions.MinimalDoubleHeadBorder&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasTableBorderExtensions.html#Spectre_Console_HasTableBorderExtensions_MinimalHeavyHeadBorder__1___0_">HasTableBorderExtensions.MinimalHeavyHeadBorder&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasTableBorderExtensions.html#Spectre_Console_HasTableBorderExtensions_NoBorder__1___0_">HasTableBorderExtensions.NoBorder&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasTableBorderExtensions.html#Spectre_Console_HasTableBorderExtensions_RoundedBorder__1___0_">HasTableBorderExtensions.RoundedBorder&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasTableBorderExtensions.html#Spectre_Console_HasTableBorderExtensions_SimpleBorder__1___0_">HasTableBorderExtensions.SimpleBorder&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasTableBorderExtensions.html#Spectre_Console_HasTableBorderExtensions_SimpleHeavyBorder__1___0_">HasTableBorderExtensions.SimpleHeavyBorder&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.HasTableBorderExtensions.html#Spectre_Console_HasTableBorderExtensions_SquareBorder__1___0_">HasTableBorderExtensions.SquareBorder&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.RenderableExtensions.html#Spectre_Console_RenderableExtensions_GetSegments_Spectre_Console_Rendering_IRenderable_Spectre_Console_IAnsiConsole_">RenderableExtensions.GetSegments(IRenderable, IAnsiConsole)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Spectre_Console_Calendar__ctor_" data-uid="Spectre.Console.Calendar.#ctor*"></a>
+
+  <h3 id="Spectre_Console_Calendar__ctor_System_DateTime_" data-uid="Spectre.Console.Calendar.#ctor(System.DateTime)">
+  Calendar(DateTime)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Calendar(DateTime date)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>date</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Calendar__ctor_" data-uid="Spectre.Console.Calendar.#ctor*"></a>
+
+  <h3 id="Spectre_Console_Calendar__ctor_System_Int32_System_Int32_" data-uid="Spectre.Console.Calendar.#ctor(System.Int32,System.Int32)">
+  Calendar(int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Calendar(int year, int month)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>year</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>month</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Calendar__ctor_" data-uid="Spectre.Console.Calendar.#ctor*"></a>
+
+  <h3 id="Spectre_Console_Calendar__ctor_System_Int32_System_Int32_System_Int32_" data-uid="Spectre.Console.Calendar.#ctor(System.Int32,System.Int32,System.Int32)">
+  Calendar(int, int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Calendar(int year, int month, int day)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>year</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>month</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>day</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Spectre_Console_Calendar_Alignment_" data-uid="Spectre.Console.Calendar.Alignment*"></a>
+
+  <h3 id="Spectre_Console_Calendar_Alignment" data-uid="Spectre.Console.Calendar.Alignment">
+  Alignment
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use the Align widget instead. This property will be removed in a later release.&quot;)]
+public Justify? Alignment { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Justify.html">Justify</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Calendar_Border_" data-uid="Spectre.Console.Calendar.Border*"></a>
+
+  <h3 id="Spectre_Console_Calendar_Border" data-uid="Spectre.Console.Calendar.Border">
+  Border
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TableBorder Border { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.TableBorder.html">TableBorder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Calendar_BorderStyle_" data-uid="Spectre.Console.Calendar.BorderStyle*"></a>
+
+  <h3 id="Spectre_Console_Calendar_BorderStyle" data-uid="Spectre.Console.Calendar.BorderStyle">
+  BorderStyle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Style? BorderStyle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Style.html">Style</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Calendar_CalendarEvents_" data-uid="Spectre.Console.Calendar.CalendarEvents*"></a>
+
+  <h3 id="Spectre_Console_Calendar_CalendarEvents" data-uid="Spectre.Console.Calendar.CalendarEvents">
+  CalendarEvents
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;CalendarEvent&gt; CalendarEvents { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="Spectre.Console.CalendarEvent.html">CalendarEvent</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Calendar_Culture_" data-uid="Spectre.Console.Calendar.Culture*"></a>
+
+  <h3 id="Spectre_Console_Calendar_Culture" data-uid="Spectre.Console.Calendar.Culture">
+  Culture
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CultureInfo? Culture { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo">CultureInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Calendar_Day_" data-uid="Spectre.Console.Calendar.Day*"></a>
+
+  <h3 id="Spectre_Console_Calendar_Day" data-uid="Spectre.Console.Calendar.Day">
+  Day
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Day { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Calendar_HeaderStyle_" data-uid="Spectre.Console.Calendar.HeaderStyle*"></a>
+
+  <h3 id="Spectre_Console_Calendar_HeaderStyle" data-uid="Spectre.Console.Calendar.HeaderStyle">
+  HeaderStyle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Style? HeaderStyle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Style.html">Style</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Calendar_HighlightStyle_" data-uid="Spectre.Console.Calendar.HighlightStyle*"></a>
+
+  <h3 id="Spectre_Console_Calendar_HighlightStyle" data-uid="Spectre.Console.Calendar.HighlightStyle">
+  HighlightStyle
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Style HighlightStyle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Style.html">Style</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Calendar_Month_" data-uid="Spectre.Console.Calendar.Month*"></a>
+
+  <h3 id="Spectre_Console_Calendar_Month" data-uid="Spectre.Console.Calendar.Month">
+  Month
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Month { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Calendar_ShowHeader_" data-uid="Spectre.Console.Calendar.ShowHeader*"></a>
+
+  <h3 id="Spectre_Console_Calendar_ShowHeader" data-uid="Spectre.Console.Calendar.ShowHeader">
+  ShowHeader
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ShowHeader { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Calendar_UseSafeBorder_" data-uid="Spectre.Console.Calendar.UseSafeBorder*"></a>
+
+  <h3 id="Spectre_Console_Calendar_UseSafeBorder" data-uid="Spectre.Console.Calendar.UseSafeBorder">
+  UseSafeBorder
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UseSafeBorder { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Calendar_Year_" data-uid="Spectre.Console.Calendar.Year*"></a>
+
+  <h3 id="Spectre_Console_Calendar_Year" data-uid="Spectre.Console.Calendar.Year">
+  Year
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Year { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Spectre_Console_Calendar_Build_" data-uid="Spectre.Console.Calendar.Build*"></a>
+
+  <h3 id="Spectre_Console_Calendar_Build" data-uid="Spectre.Console.Calendar.Build">
+  Build()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override IRenderable Build()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Rendering.IRenderable.html">IRenderable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

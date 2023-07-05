@@ -3,9 +3,8 @@
     {
       "src": [
         {
-          "files": [
-            "bin/**/*.dll"
-          ]
+          "files": [ "Game/bin/Debug/net7.0/**.dll" ],
+          "src": "../.."
         }
       ],
       "dest": "api",

@@ -1,0 +1,1018 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class TextPromptExtensions
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class TextPromptExtensions
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Spectre.Console.TextPromptExtensions">
+
+
+
+  <h1 id="Spectre_Console_TextPromptExtensions" data-uid="Spectre.Console.TextPromptExtensions" class="text-break">
+    Class TextPromptExtensions
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Spectre.html">Spectre</a>.<a class="xref" href="Spectre.Console.html">Console</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Spectre.Console.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class TextPromptExtensions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">TextPromptExtensions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Spectre_Console_TextPromptExtensions_AddChoice_" data-uid="Spectre.Console.TextPromptExtensions.AddChoice*"></a>
+
+  <h3 id="Spectre_Console_TextPromptExtensions_AddChoice__1_Spectre_Console_TextPrompt___0____0_" data-uid="Spectre.Console.TextPromptExtensions.AddChoice``1(Spectre.Console.TextPrompt{``0},``0)">
+  AddChoice&lt;T&gt;(TextPrompt&lt;T&gt;, T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextPrompt&lt;T&gt; AddChoice&lt;T&gt;(this TextPrompt&lt;T&gt; obj, T choice)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>choice</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TextPromptExtensions_AddChoices_" data-uid="Spectre.Console.TextPromptExtensions.AddChoices*"></a>
+
+  <h3 id="Spectre_Console_TextPromptExtensions_AddChoices__1_Spectre_Console_TextPrompt___0__System_Collections_Generic_IEnumerable___0__" data-uid="Spectre.Console.TextPromptExtensions.AddChoices``1(Spectre.Console.TextPrompt{``0},System.Collections.Generic.IEnumerable{``0})">
+  AddChoices&lt;T&gt;(TextPrompt&lt;T&gt;, IEnumerable&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextPrompt&lt;T&gt; AddChoices&lt;T&gt;(this TextPrompt&lt;T&gt; obj, IEnumerable&lt;T&gt; choices)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>choices</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TextPromptExtensions_AllowEmpty_" data-uid="Spectre.Console.TextPromptExtensions.AllowEmpty*"></a>
+
+  <h3 id="Spectre_Console_TextPromptExtensions_AllowEmpty__1_Spectre_Console_TextPrompt___0__" data-uid="Spectre.Console.TextPromptExtensions.AllowEmpty``1(Spectre.Console.TextPrompt{``0})">
+  AllowEmpty&lt;T&gt;(TextPrompt&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextPrompt&lt;T&gt; AllowEmpty&lt;T&gt;(this TextPrompt&lt;T&gt; obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TextPromptExtensions_ChoicesStyle_" data-uid="Spectre.Console.TextPromptExtensions.ChoicesStyle*"></a>
+
+  <h3 id="Spectre_Console_TextPromptExtensions_ChoicesStyle__1_Spectre_Console_TextPrompt___0__Spectre_Console_Style_" data-uid="Spectre.Console.TextPromptExtensions.ChoicesStyle``1(Spectre.Console.TextPrompt{``0},Spectre.Console.Style)">
+  ChoicesStyle&lt;T&gt;(TextPrompt&lt;T&gt;, Style)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextPrompt&lt;T&gt; ChoicesStyle&lt;T&gt;(this TextPrompt&lt;T&gt; obj, Style style)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>style</code> <a class="xref" href="Spectre.Console.Style.html">Style</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TextPromptExtensions_DefaultValueStyle_" data-uid="Spectre.Console.TextPromptExtensions.DefaultValueStyle*"></a>
+
+  <h3 id="Spectre_Console_TextPromptExtensions_DefaultValueStyle__1_Spectre_Console_TextPrompt___0__Spectre_Console_Style_" data-uid="Spectre.Console.TextPromptExtensions.DefaultValueStyle``1(Spectre.Console.TextPrompt{``0},Spectre.Console.Style)">
+  DefaultValueStyle&lt;T&gt;(TextPrompt&lt;T&gt;, Style)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextPrompt&lt;T&gt; DefaultValueStyle&lt;T&gt;(this TextPrompt&lt;T&gt; obj, Style style)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>style</code> <a class="xref" href="Spectre.Console.Style.html">Style</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TextPromptExtensions_DefaultValue_" data-uid="Spectre.Console.TextPromptExtensions.DefaultValue*"></a>
+
+  <h3 id="Spectre_Console_TextPromptExtensions_DefaultValue__1_Spectre_Console_TextPrompt___0____0_" data-uid="Spectre.Console.TextPromptExtensions.DefaultValue``1(Spectre.Console.TextPrompt{``0},``0)">
+  DefaultValue&lt;T&gt;(TextPrompt&lt;T&gt;, T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextPrompt&lt;T&gt; DefaultValue&lt;T&gt;(this TextPrompt&lt;T&gt; obj, T value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TextPromptExtensions_HideChoices_" data-uid="Spectre.Console.TextPromptExtensions.HideChoices*"></a>
+
+  <h3 id="Spectre_Console_TextPromptExtensions_HideChoices__1_Spectre_Console_TextPrompt___0__" data-uid="Spectre.Console.TextPromptExtensions.HideChoices``1(Spectre.Console.TextPrompt{``0})">
+  HideChoices&lt;T&gt;(TextPrompt&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextPrompt&lt;T&gt; HideChoices&lt;T&gt;(this TextPrompt&lt;T&gt; obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TextPromptExtensions_HideDefaultValue_" data-uid="Spectre.Console.TextPromptExtensions.HideDefaultValue*"></a>
+
+  <h3 id="Spectre_Console_TextPromptExtensions_HideDefaultValue__1_Spectre_Console_TextPrompt___0__" data-uid="Spectre.Console.TextPromptExtensions.HideDefaultValue``1(Spectre.Console.TextPrompt{``0})">
+  HideDefaultValue&lt;T&gt;(TextPrompt&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextPrompt&lt;T&gt; HideDefaultValue&lt;T&gt;(this TextPrompt&lt;T&gt; obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TextPromptExtensions_InvalidChoiceMessage_" data-uid="Spectre.Console.TextPromptExtensions.InvalidChoiceMessage*"></a>
+
+  <h3 id="Spectre_Console_TextPromptExtensions_InvalidChoiceMessage__1_Spectre_Console_TextPrompt___0__System_String_" data-uid="Spectre.Console.TextPromptExtensions.InvalidChoiceMessage``1(Spectre.Console.TextPrompt{``0},System.String)">
+  InvalidChoiceMessage&lt;T&gt;(TextPrompt&lt;T&gt;, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextPrompt&lt;T&gt; InvalidChoiceMessage&lt;T&gt;(this TextPrompt&lt;T&gt; obj, string message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TextPromptExtensions_PromptStyle_" data-uid="Spectre.Console.TextPromptExtensions.PromptStyle*"></a>
+
+  <h3 id="Spectre_Console_TextPromptExtensions_PromptStyle__1_Spectre_Console_TextPrompt___0__Spectre_Console_Style_" data-uid="Spectre.Console.TextPromptExtensions.PromptStyle``1(Spectre.Console.TextPrompt{``0},Spectre.Console.Style)">
+  PromptStyle&lt;T&gt;(TextPrompt&lt;T&gt;, Style)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextPrompt&lt;T&gt; PromptStyle&lt;T&gt;(this TextPrompt&lt;T&gt; obj, Style style)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>style</code> <a class="xref" href="Spectre.Console.Style.html">Style</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TextPromptExtensions_Secret_" data-uid="Spectre.Console.TextPromptExtensions.Secret*"></a>
+
+  <h3 id="Spectre_Console_TextPromptExtensions_Secret__1_Spectre_Console_TextPrompt___0__" data-uid="Spectre.Console.TextPromptExtensions.Secret``1(Spectre.Console.TextPrompt{``0})">
+  Secret&lt;T&gt;(TextPrompt&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextPrompt&lt;T&gt; Secret&lt;T&gt;(this TextPrompt&lt;T&gt; obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TextPromptExtensions_Secret_" data-uid="Spectre.Console.TextPromptExtensions.Secret*"></a>
+
+  <h3 id="Spectre_Console_TextPromptExtensions_Secret__1_Spectre_Console_TextPrompt___0__System_Nullable_System_Char__" data-uid="Spectre.Console.TextPromptExtensions.Secret``1(Spectre.Console.TextPrompt{``0},System.Nullable{System.Char})">
+  Secret&lt;T&gt;(TextPrompt&lt;T&gt;, char?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextPrompt&lt;T&gt; Secret&lt;T&gt;(this TextPrompt&lt;T&gt; obj, char? mask)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>mask</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TextPromptExtensions_ShowChoices_" data-uid="Spectre.Console.TextPromptExtensions.ShowChoices*"></a>
+
+  <h3 id="Spectre_Console_TextPromptExtensions_ShowChoices__1_Spectre_Console_TextPrompt___0__" data-uid="Spectre.Console.TextPromptExtensions.ShowChoices``1(Spectre.Console.TextPrompt{``0})">
+  ShowChoices&lt;T&gt;(TextPrompt&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextPrompt&lt;T&gt; ShowChoices&lt;T&gt;(this TextPrompt&lt;T&gt; obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TextPromptExtensions_ShowChoices_" data-uid="Spectre.Console.TextPromptExtensions.ShowChoices*"></a>
+
+  <h3 id="Spectre_Console_TextPromptExtensions_ShowChoices__1_Spectre_Console_TextPrompt___0__System_Boolean_" data-uid="Spectre.Console.TextPromptExtensions.ShowChoices``1(Spectre.Console.TextPrompt{``0},System.Boolean)">
+  ShowChoices&lt;T&gt;(TextPrompt&lt;T&gt;, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextPrompt&lt;T&gt; ShowChoices&lt;T&gt;(this TextPrompt&lt;T&gt; obj, bool show)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>show</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TextPromptExtensions_ShowDefaultValue_" data-uid="Spectre.Console.TextPromptExtensions.ShowDefaultValue*"></a>
+
+  <h3 id="Spectre_Console_TextPromptExtensions_ShowDefaultValue__1_Spectre_Console_TextPrompt___0__" data-uid="Spectre.Console.TextPromptExtensions.ShowDefaultValue``1(Spectre.Console.TextPrompt{``0})">
+  ShowDefaultValue&lt;T&gt;(TextPrompt&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextPrompt&lt;T&gt; ShowDefaultValue&lt;T&gt;(this TextPrompt&lt;T&gt; obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TextPromptExtensions_ShowDefaultValue_" data-uid="Spectre.Console.TextPromptExtensions.ShowDefaultValue*"></a>
+
+  <h3 id="Spectre_Console_TextPromptExtensions_ShowDefaultValue__1_Spectre_Console_TextPrompt___0__System_Boolean_" data-uid="Spectre.Console.TextPromptExtensions.ShowDefaultValue``1(Spectre.Console.TextPrompt{``0},System.Boolean)">
+  ShowDefaultValue&lt;T&gt;(TextPrompt&lt;T&gt;, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextPrompt&lt;T&gt; ShowDefaultValue&lt;T&gt;(this TextPrompt&lt;T&gt; obj, bool show)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>show</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TextPromptExtensions_Validate_" data-uid="Spectre.Console.TextPromptExtensions.Validate*"></a>
+
+  <h3 id="Spectre_Console_TextPromptExtensions_Validate__1_Spectre_Console_TextPrompt___0__System_Func___0_Spectre_Console_ValidationResult__" data-uid="Spectre.Console.TextPromptExtensions.Validate``1(Spectre.Console.TextPrompt{``0},System.Func{``0,Spectre.Console.ValidationResult})">
+  Validate&lt;T&gt;(TextPrompt&lt;T&gt;, Func&lt;T, ValidationResult&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextPrompt&lt;T&gt; Validate&lt;T&gt;(this TextPrompt&lt;T&gt; obj, Func&lt;T, ValidationResult&gt; validator)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>validator</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="Spectre.Console.ValidationResult.html">ValidationResult</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TextPromptExtensions_Validate_" data-uid="Spectre.Console.TextPromptExtensions.Validate*"></a>
+
+  <h3 id="Spectre_Console_TextPromptExtensions_Validate__1_Spectre_Console_TextPrompt___0__System_Func___0_System_Boolean__System_String_" data-uid="Spectre.Console.TextPromptExtensions.Validate``1(Spectre.Console.TextPrompt{``0},System.Func{``0,System.Boolean},System.String)">
+  Validate&lt;T&gt;(TextPrompt&lt;T&gt;, Func&lt;T, bool&gt;, string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextPrompt&lt;T&gt; Validate&lt;T&gt;(this TextPrompt&lt;T&gt; obj, Func&lt;T, bool&gt; validator, string? message = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>validator</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TextPromptExtensions_ValidationErrorMessage_" data-uid="Spectre.Console.TextPromptExtensions.ValidationErrorMessage*"></a>
+
+  <h3 id="Spectre_Console_TextPromptExtensions_ValidationErrorMessage__1_Spectre_Console_TextPrompt___0__System_String_" data-uid="Spectre.Console.TextPromptExtensions.ValidationErrorMessage``1(Spectre.Console.TextPrompt{``0},System.String)">
+  ValidationErrorMessage&lt;T&gt;(TextPrompt&lt;T&gt;, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextPrompt&lt;T&gt; ValidationErrorMessage&lt;T&gt;(this TextPrompt&lt;T&gt; obj, string message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TextPromptExtensions_WithConverter_" data-uid="Spectre.Console.TextPromptExtensions.WithConverter*"></a>
+
+  <h3 id="Spectre_Console_TextPromptExtensions_WithConverter__1_Spectre_Console_TextPrompt___0__System_Func___0_System_String__" data-uid="Spectre.Console.TextPromptExtensions.WithConverter``1(Spectre.Console.TextPrompt{``0},System.Func{``0,System.String})">
+  WithConverter&lt;T&gt;(TextPrompt&lt;T&gt;, Func&lt;T, string&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextPrompt&lt;T&gt; WithConverter&lt;T&gt;(this TextPrompt&lt;T&gt; obj, Func&lt;T, string&gt;? displaySelector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>displaySelector</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.TextPrompt-1.html">TextPrompt</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

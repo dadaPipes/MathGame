@@ -1,0 +1,949 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class HasTableBorderExtensions
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class HasTableBorderExtensions
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Spectre.Console.HasTableBorderExtensions">
+
+
+
+  <h1 id="Spectre_Console_HasTableBorderExtensions" data-uid="Spectre.Console.HasTableBorderExtensions" class="text-break">
+    Class HasTableBorderExtensions
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Spectre.html">Spectre</a>.<a class="xref" href="Spectre.Console.html">Console</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Spectre.Console.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class HasTableBorderExtensions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">HasTableBorderExtensions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Spectre_Console_HasTableBorderExtensions_Ascii2Border_" data-uid="Spectre.Console.HasTableBorderExtensions.Ascii2Border*"></a>
+
+  <h3 id="Spectre_Console_HasTableBorderExtensions_Ascii2Border__1___0_" data-uid="Spectre.Console.HasTableBorderExtensions.Ascii2Border``1(``0)">
+  Ascii2Border&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Ascii2Border&lt;T&gt;(this T obj) where T : class, IHasTableBorder</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_HasTableBorderExtensions_AsciiBorder_" data-uid="Spectre.Console.HasTableBorderExtensions.AsciiBorder*"></a>
+
+  <h3 id="Spectre_Console_HasTableBorderExtensions_AsciiBorder__1___0_" data-uid="Spectre.Console.HasTableBorderExtensions.AsciiBorder``1(``0)">
+  AsciiBorder&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T AsciiBorder&lt;T&gt;(this T obj) where T : class, IHasTableBorder</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_HasTableBorderExtensions_AsciiDoubleHeadBorder_" data-uid="Spectre.Console.HasTableBorderExtensions.AsciiDoubleHeadBorder*"></a>
+
+  <h3 id="Spectre_Console_HasTableBorderExtensions_AsciiDoubleHeadBorder__1___0_" data-uid="Spectre.Console.HasTableBorderExtensions.AsciiDoubleHeadBorder``1(``0)">
+  AsciiDoubleHeadBorder&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T AsciiDoubleHeadBorder&lt;T&gt;(this T obj) where T : class, IHasTableBorder</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_HasTableBorderExtensions_Border_" data-uid="Spectre.Console.HasTableBorderExtensions.Border*"></a>
+
+  <h3 id="Spectre_Console_HasTableBorderExtensions_Border__1___0_Spectre_Console_TableBorder_" data-uid="Spectre.Console.HasTableBorderExtensions.Border``1(``0,Spectre.Console.TableBorder)">
+  Border&lt;T&gt;(T, TableBorder)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Border&lt;T&gt;(this T obj, TableBorder border) where T : class, IHasTableBorder</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>border</code> <a class="xref" href="Spectre.Console.TableBorder.html">TableBorder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_HasTableBorderExtensions_DoubleBorder_" data-uid="Spectre.Console.HasTableBorderExtensions.DoubleBorder*"></a>
+
+  <h3 id="Spectre_Console_HasTableBorderExtensions_DoubleBorder__1___0_" data-uid="Spectre.Console.HasTableBorderExtensions.DoubleBorder``1(``0)">
+  DoubleBorder&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T DoubleBorder&lt;T&gt;(this T obj) where T : class, IHasTableBorder</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_HasTableBorderExtensions_DoubleEdgeBorder_" data-uid="Spectre.Console.HasTableBorderExtensions.DoubleEdgeBorder*"></a>
+
+  <h3 id="Spectre_Console_HasTableBorderExtensions_DoubleEdgeBorder__1___0_" data-uid="Spectre.Console.HasTableBorderExtensions.DoubleEdgeBorder``1(``0)">
+  DoubleEdgeBorder&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T DoubleEdgeBorder&lt;T&gt;(this T obj) where T : class, IHasTableBorder</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_HasTableBorderExtensions_HeavyBorder_" data-uid="Spectre.Console.HasTableBorderExtensions.HeavyBorder*"></a>
+
+  <h3 id="Spectre_Console_HasTableBorderExtensions_HeavyBorder__1___0_" data-uid="Spectre.Console.HasTableBorderExtensions.HeavyBorder``1(``0)">
+  HeavyBorder&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T HeavyBorder&lt;T&gt;(this T obj) where T : class, IHasTableBorder</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_HasTableBorderExtensions_HeavyEdgeBorder_" data-uid="Spectre.Console.HasTableBorderExtensions.HeavyEdgeBorder*"></a>
+
+  <h3 id="Spectre_Console_HasTableBorderExtensions_HeavyEdgeBorder__1___0_" data-uid="Spectre.Console.HasTableBorderExtensions.HeavyEdgeBorder``1(``0)">
+  HeavyEdgeBorder&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T HeavyEdgeBorder&lt;T&gt;(this T obj) where T : class, IHasTableBorder</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_HasTableBorderExtensions_HeavyHeadBorder_" data-uid="Spectre.Console.HasTableBorderExtensions.HeavyHeadBorder*"></a>
+
+  <h3 id="Spectre_Console_HasTableBorderExtensions_HeavyHeadBorder__1___0_" data-uid="Spectre.Console.HasTableBorderExtensions.HeavyHeadBorder``1(``0)">
+  HeavyHeadBorder&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T HeavyHeadBorder&lt;T&gt;(this T obj) where T : class, IHasTableBorder</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_HasTableBorderExtensions_HorizontalBorder_" data-uid="Spectre.Console.HasTableBorderExtensions.HorizontalBorder*"></a>
+
+  <h3 id="Spectre_Console_HasTableBorderExtensions_HorizontalBorder__1___0_" data-uid="Spectre.Console.HasTableBorderExtensions.HorizontalBorder``1(``0)">
+  HorizontalBorder&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T HorizontalBorder&lt;T&gt;(this T obj) where T : class, IHasTableBorder</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_HasTableBorderExtensions_MarkdownBorder_" data-uid="Spectre.Console.HasTableBorderExtensions.MarkdownBorder*"></a>
+
+  <h3 id="Spectre_Console_HasTableBorderExtensions_MarkdownBorder__1___0_" data-uid="Spectre.Console.HasTableBorderExtensions.MarkdownBorder``1(``0)">
+  MarkdownBorder&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T MarkdownBorder&lt;T&gt;(this T obj) where T : class, IHasTableBorder</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_HasTableBorderExtensions_MinimalBorder_" data-uid="Spectre.Console.HasTableBorderExtensions.MinimalBorder*"></a>
+
+  <h3 id="Spectre_Console_HasTableBorderExtensions_MinimalBorder__1___0_" data-uid="Spectre.Console.HasTableBorderExtensions.MinimalBorder``1(``0)">
+  MinimalBorder&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T MinimalBorder&lt;T&gt;(this T obj) where T : class, IHasTableBorder</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_HasTableBorderExtensions_MinimalDoubleHeadBorder_" data-uid="Spectre.Console.HasTableBorderExtensions.MinimalDoubleHeadBorder*"></a>
+
+  <h3 id="Spectre_Console_HasTableBorderExtensions_MinimalDoubleHeadBorder__1___0_" data-uid="Spectre.Console.HasTableBorderExtensions.MinimalDoubleHeadBorder``1(``0)">
+  MinimalDoubleHeadBorder&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T MinimalDoubleHeadBorder&lt;T&gt;(this T obj) where T : class, IHasTableBorder</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_HasTableBorderExtensions_MinimalHeavyHeadBorder_" data-uid="Spectre.Console.HasTableBorderExtensions.MinimalHeavyHeadBorder*"></a>
+
+  <h3 id="Spectre_Console_HasTableBorderExtensions_MinimalHeavyHeadBorder__1___0_" data-uid="Spectre.Console.HasTableBorderExtensions.MinimalHeavyHeadBorder``1(``0)">
+  MinimalHeavyHeadBorder&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T MinimalHeavyHeadBorder&lt;T&gt;(this T obj) where T : class, IHasTableBorder</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_HasTableBorderExtensions_NoBorder_" data-uid="Spectre.Console.HasTableBorderExtensions.NoBorder*"></a>
+
+  <h3 id="Spectre_Console_HasTableBorderExtensions_NoBorder__1___0_" data-uid="Spectre.Console.HasTableBorderExtensions.NoBorder``1(``0)">
+  NoBorder&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T NoBorder&lt;T&gt;(this T obj) where T : class, IHasTableBorder</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_HasTableBorderExtensions_RoundedBorder_" data-uid="Spectre.Console.HasTableBorderExtensions.RoundedBorder*"></a>
+
+  <h3 id="Spectre_Console_HasTableBorderExtensions_RoundedBorder__1___0_" data-uid="Spectre.Console.HasTableBorderExtensions.RoundedBorder``1(``0)">
+  RoundedBorder&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T RoundedBorder&lt;T&gt;(this T obj) where T : class, IHasTableBorder</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_HasTableBorderExtensions_SimpleBorder_" data-uid="Spectre.Console.HasTableBorderExtensions.SimpleBorder*"></a>
+
+  <h3 id="Spectre_Console_HasTableBorderExtensions_SimpleBorder__1___0_" data-uid="Spectre.Console.HasTableBorderExtensions.SimpleBorder``1(``0)">
+  SimpleBorder&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T SimpleBorder&lt;T&gt;(this T obj) where T : class, IHasTableBorder</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_HasTableBorderExtensions_SimpleHeavyBorder_" data-uid="Spectre.Console.HasTableBorderExtensions.SimpleHeavyBorder*"></a>
+
+  <h3 id="Spectre_Console_HasTableBorderExtensions_SimpleHeavyBorder__1___0_" data-uid="Spectre.Console.HasTableBorderExtensions.SimpleHeavyBorder``1(``0)">
+  SimpleHeavyBorder&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T SimpleHeavyBorder&lt;T&gt;(this T obj) where T : class, IHasTableBorder</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_HasTableBorderExtensions_SquareBorder_" data-uid="Spectre.Console.HasTableBorderExtensions.SquareBorder*"></a>
+
+  <h3 id="Spectre_Console_HasTableBorderExtensions_SquareBorder__1___0_" data-uid="Spectre.Console.HasTableBorderExtensions.SquareBorder``1(``0)">
+  SquareBorder&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T SquareBorder&lt;T&gt;(this T obj) where T : class, IHasTableBorder</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

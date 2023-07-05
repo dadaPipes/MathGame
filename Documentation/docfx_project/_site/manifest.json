@@ -4,6 +4,2206 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.GameGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.GameGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.GameMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.GameMenu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Game.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Game.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Advanced.AnsiConsoleExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Advanced.AnsiConsoleExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Advanced.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Advanced.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Align.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Align.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.AlignableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.AlignableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.AnsiConsole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.AnsiConsole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.AnsiConsoleExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.AnsiConsoleExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.AnsiConsoleFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.AnsiConsoleFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.AnsiConsoleOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.AnsiConsoleOutput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.AnsiConsoleSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.AnsiConsoleSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.AnsiSupport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.AnsiSupport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.BarChart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.BarChart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.BarChartExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.BarChartExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.BarChartItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.BarChartItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.BoxBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.BoxBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.BreakdownChart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.BreakdownChart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.BreakdownChartExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.BreakdownChartExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.BreakdownChartItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.BreakdownChartItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Calendar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Calendar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.CalendarEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.CalendarEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.CalendarExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.CalendarExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Canvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Canvas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Capabilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Capabilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.CharExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.CharExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.CircularTreeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.CircularTreeException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Color.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Color.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ColorSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ColorSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ColorSystemSupport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ColorSystemSupport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ColumnExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ColumnExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Columns.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Columns.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ConfirmationPrompt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ConfirmationPrompt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ConfirmationPromptExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ConfirmationPromptExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.CursorDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.CursorDirection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.CursorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.CursorExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Decoration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Decoration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.DownloadedColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.DownloadedColumn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ElapsedTimeColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ElapsedTimeColumn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Emoji.Known.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Emoji.Known.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Emoji.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Emoji.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ExceptionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ExceptionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ExceptionFormats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ExceptionFormats.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ExceptionSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ExceptionSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ExceptionStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ExceptionStyle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ExpandableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ExpandableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Extensions.AlignExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Extensions.AlignExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.FigletFont.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.FigletFont.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.FigletText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.FigletText.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.FigletTextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.FigletTextExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Grid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Grid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.GridColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.GridColumn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.GridExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.GridExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.GridRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.GridRow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.HasBorderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.HasBorderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.HasBoxBorderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.HasBoxBorderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.HasCultureExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.HasCultureExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.HasJustificationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.HasJustificationExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.HasTableBorderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.HasTableBorderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.HasTreeNodeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.HasTreeNodeExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.HorizontalAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.HorizontalAlignment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IAlignable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IAlignable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IAnsiConsole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IAnsiConsole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IAnsiConsoleCursor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IAnsiConsoleCursor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IAnsiConsoleInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IAnsiConsoleInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IAnsiConsoleOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IAnsiConsoleOutput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IBarChartItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IBarChartItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IBreakdownChartItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IBreakdownChartItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IColumn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IExclusivityMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IExclusivityMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IExpandable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IExpandable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IHasBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IHasBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IHasBoxBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IHasBoxBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IHasCulture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IHasCulture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IHasJustification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IHasJustification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IHasTableBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IHasTableBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IHasTreeNodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IHasTreeNodes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IHasVisibility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IHasVisibility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IMultiSelectionItem-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IMultiSelectionItem-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IOverflowable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IOverflowable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IPaddable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IPaddable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IProfileEnricher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IProfileEnricher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IPrompt-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IPrompt-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.IReadOnlyCapabilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.IReadOnlyCapabilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ISelectionItem-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ISelectionItem-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.InteractionSupport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.InteractionSupport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Justify.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Justify.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Layout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Layout.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.LayoutExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.LayoutExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.LiveDisplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.LiveDisplay.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.LiveDisplayContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.LiveDisplayContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.LiveDisplayExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.LiveDisplayExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Markup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Markup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.MultiSelectionPrompt-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.MultiSelectionPrompt-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.MultiSelectionPromptExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.MultiSelectionPromptExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Overflow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Overflow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.OverflowableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.OverflowableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.PaddableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.PaddableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Padder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Padder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Padding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Padding.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.PaddingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.PaddingExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Panel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Panel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.PanelExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.PanelExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.PanelHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.PanelHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Paragraph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Paragraph.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.PercentageColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.PercentageColumn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.PercentageColumnExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.PercentageColumnExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Profile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Profile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ProfileEnrichment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ProfileEnrichment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Progress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Progress.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ProgressBarColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ProgressBarColumn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ProgressBarColumnExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ProgressBarColumnExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ProgressColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ProgressColumn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ProgressContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ProgressContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ProgressExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ProgressExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ProgressTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ProgressTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ProgressTaskExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ProgressTaskExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ProgressTaskSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ProgressTaskSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ProgressTaskState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ProgressTaskState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Recorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Recorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.RecorderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.RecorderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Region.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Region.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.RemainingTimeColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.RemainingTimeColumn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.RemainingTimeColumnExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.RemainingTimeColumnExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.RenderableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.RenderableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.Ascii2TableBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.Ascii2TableBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.AsciiBoxBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.AsciiBoxBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.AsciiDoubleHeadTableBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.AsciiDoubleHeadTableBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.AsciiTableBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.AsciiTableBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.AsciiTreeGuide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.AsciiTreeGuide.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.BoldLineTreeGuide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.BoldLineTreeGuide.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.BoxBorderPart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.BoxBorderPart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.BoxExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.BoxExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.DoubleBoxBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.DoubleBoxBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.DoubleEdgeTableBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.DoubleEdgeTableBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.DoubleLineTreeGuide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.DoubleLineTreeGuide.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.DoubleTableBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.DoubleTableBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.HeavyBoxBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.HeavyBoxBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.HeavyEdgeTableBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.HeavyEdgeTableBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.HeavyHeadTableBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.HeavyHeadTableBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.HeavyTableBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.HeavyTableBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.HorizontalTableBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.HorizontalTableBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.IAnsiConsoleEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.IAnsiConsoleEncoder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.IHasDirtyState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.IHasDirtyState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.IRenderHook.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.IRenderHook.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.IRenderable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.IRenderable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.JustInTimeRenderable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.JustInTimeRenderable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.LineTreeGuide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.LineTreeGuide.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.MarkdownTableBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.MarkdownTableBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.Measurement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.Measurement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.MinimalDoubleHeadTableBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.MinimalDoubleHeadTableBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.MinimalHeavyHeadTableBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.MinimalHeavyHeadTableBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.MinimalTableBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.MinimalTableBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.NoBoxBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.NoBoxBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.NoTableBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.NoTableBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.RenderHookScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.RenderHookScope.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.RenderOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.RenderOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.RenderPipeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.RenderPipeline.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.Renderable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.Renderable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.RoundedBoxBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.RoundedBoxBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.RoundedTableBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.RoundedTableBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.Segment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.Segment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.SegmentLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.SegmentLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.SegmentLineEnumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.SegmentLineEnumerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.SegmentLineIterator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.SegmentLineIterator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.SimpleHeavyTableBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.SimpleHeavyTableBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.SimpleTableBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.SimpleTableBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.SquareBoxBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.SquareBoxBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.SquareTableBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.SquareTableBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.TableBorderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.TableBorderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.TableBorderPart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.TableBorderPart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.TablePart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.TablePart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.TreeGuideExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.TreeGuideExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.TreeGuidePart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.TreeGuidePart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rendering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rendering.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rows.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Rule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Rule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.RuleExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.RuleExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.SelectionMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.SelectionMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.SelectionPrompt-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.SelectionPrompt-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.SelectionPromptExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.SelectionPromptExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Size.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Size.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Spinner.Known.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Spinner.Known.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Spinner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Spinner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.SpinnerColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.SpinnerColumn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.SpinnerColumnExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.SpinnerColumnExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Status.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.StatusContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.StatusContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.StatusContextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.StatusContextExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.StatusExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.StatusExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.StringExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Style.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Style.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.StyleExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.StyleExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Table.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Table.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.TableBorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.TableBorder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.TableColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.TableColumn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.TableColumnExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.TableColumnExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.TableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.TableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.TableRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.TableRow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.TableRowCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.TableRowCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.TableTitle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.TableTitle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.TaskDescriptionColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.TaskDescriptionColumn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Text.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Text.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.TextPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.TextPath.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.TextPathExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.TextPathExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.TextPrompt-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.TextPrompt-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.TextPromptExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.TextPromptExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.TransferSpeedColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.TransferSpeedColumn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.Tree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.Tree.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.TreeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.TreeExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.TreeGuide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.TreeGuide.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.TreeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.TreeNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.TreeNodeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.TreeNodeExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.ValidationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.ValidationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.VerticalAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.VerticalAlignment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.VerticalOverflow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.VerticalOverflow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.VerticalOverflowCropping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.VerticalOverflowCropping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.VisibilityExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.VisibilityExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Spectre.Console.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Spectre.Console.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {

@@ -1,0 +1,8788 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Struct Color
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Struct Color
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Spectre.Console.Color">
+
+
+
+  <h1 id="Spectre_Console_Color" data-uid="Spectre.Console.Color" class="text-break">
+    Struct Color
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Spectre.html">Spectre</a>.<a class="xref" href="Spectre.Console.html">Console</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Spectre.Console.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public struct Color : IEquatable&lt;Color&gt;</code></pre>
+  </div>
+
+
+
+
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Spectre.Console.Color.html">Color</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Spectre_Console_Color__ctor_" data-uid="Spectre.Console.Color.#ctor*"></a>
+
+  <h3 id="Spectre_Console_Color__ctor_System_Byte_System_Byte_System_Byte_" data-uid="Spectre.Console.Color.#ctor(System.Byte,System.Byte,System.Byte)">
+  Color(byte, byte, byte)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color(byte red, byte green, byte blue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>red</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>green</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+    <dt><code>blue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Spectre_Console_Color_Aqua_" data-uid="Spectre.Console.Color.Aqua*"></a>
+
+  <h3 id="Spectre_Console_Color_Aqua" data-uid="Spectre.Console.Color.Aqua">
+  Aqua
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Aqua { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Aquamarine1_" data-uid="Spectre.Console.Color.Aquamarine1*"></a>
+
+  <h3 id="Spectre_Console_Color_Aquamarine1" data-uid="Spectre.Console.Color.Aquamarine1">
+  Aquamarine1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Aquamarine1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Aquamarine1_1_" data-uid="Spectre.Console.Color.Aquamarine1_1*"></a>
+
+  <h3 id="Spectre_Console_Color_Aquamarine1_1" data-uid="Spectre.Console.Color.Aquamarine1_1">
+  Aquamarine1_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Aquamarine1_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Aquamarine3_" data-uid="Spectre.Console.Color.Aquamarine3*"></a>
+
+  <h3 id="Spectre_Console_Color_Aquamarine3" data-uid="Spectre.Console.Color.Aquamarine3">
+  Aquamarine3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Aquamarine3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_B_" data-uid="Spectre.Console.Color.B*"></a>
+
+  <h3 id="Spectre_Console_Color_B" data-uid="Spectre.Console.Color.B">
+  B
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly byte B { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Black_" data-uid="Spectre.Console.Color.Black*"></a>
+
+  <h3 id="Spectre_Console_Color_Black" data-uid="Spectre.Console.Color.Black">
+  Black
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Black { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Blue_" data-uid="Spectre.Console.Color.Blue*"></a>
+
+  <h3 id="Spectre_Console_Color_Blue" data-uid="Spectre.Console.Color.Blue">
+  Blue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Blue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Blue1_" data-uid="Spectre.Console.Color.Blue1*"></a>
+
+  <h3 id="Spectre_Console_Color_Blue1" data-uid="Spectre.Console.Color.Blue1">
+  Blue1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Blue1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Blue3_" data-uid="Spectre.Console.Color.Blue3*"></a>
+
+  <h3 id="Spectre_Console_Color_Blue3" data-uid="Spectre.Console.Color.Blue3">
+  Blue3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Blue3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Blue3_1_" data-uid="Spectre.Console.Color.Blue3_1*"></a>
+
+  <h3 id="Spectre_Console_Color_Blue3_1" data-uid="Spectre.Console.Color.Blue3_1">
+  Blue3_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Blue3_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_BlueViolet_" data-uid="Spectre.Console.Color.BlueViolet*"></a>
+
+  <h3 id="Spectre_Console_Color_BlueViolet" data-uid="Spectre.Console.Color.BlueViolet">
+  BlueViolet
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color BlueViolet { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_CadetBlue_" data-uid="Spectre.Console.Color.CadetBlue*"></a>
+
+  <h3 id="Spectre_Console_Color_CadetBlue" data-uid="Spectre.Console.Color.CadetBlue">
+  CadetBlue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color CadetBlue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_CadetBlue_1_" data-uid="Spectre.Console.Color.CadetBlue_1*"></a>
+
+  <h3 id="Spectre_Console_Color_CadetBlue_1" data-uid="Spectre.Console.Color.CadetBlue_1">
+  CadetBlue_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color CadetBlue_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Chartreuse1_" data-uid="Spectre.Console.Color.Chartreuse1*"></a>
+
+  <h3 id="Spectre_Console_Color_Chartreuse1" data-uid="Spectre.Console.Color.Chartreuse1">
+  Chartreuse1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Chartreuse1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Chartreuse2_" data-uid="Spectre.Console.Color.Chartreuse2*"></a>
+
+  <h3 id="Spectre_Console_Color_Chartreuse2" data-uid="Spectre.Console.Color.Chartreuse2">
+  Chartreuse2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Chartreuse2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Chartreuse2_1_" data-uid="Spectre.Console.Color.Chartreuse2_1*"></a>
+
+  <h3 id="Spectre_Console_Color_Chartreuse2_1" data-uid="Spectre.Console.Color.Chartreuse2_1">
+  Chartreuse2_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Chartreuse2_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Chartreuse3_" data-uid="Spectre.Console.Color.Chartreuse3*"></a>
+
+  <h3 id="Spectre_Console_Color_Chartreuse3" data-uid="Spectre.Console.Color.Chartreuse3">
+  Chartreuse3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Chartreuse3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Chartreuse3_1_" data-uid="Spectre.Console.Color.Chartreuse3_1*"></a>
+
+  <h3 id="Spectre_Console_Color_Chartreuse3_1" data-uid="Spectre.Console.Color.Chartreuse3_1">
+  Chartreuse3_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Chartreuse3_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Chartreuse4_" data-uid="Spectre.Console.Color.Chartreuse4*"></a>
+
+  <h3 id="Spectre_Console_Color_Chartreuse4" data-uid="Spectre.Console.Color.Chartreuse4">
+  Chartreuse4
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Chartreuse4 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_CornflowerBlue_" data-uid="Spectre.Console.Color.CornflowerBlue*"></a>
+
+  <h3 id="Spectre_Console_Color_CornflowerBlue" data-uid="Spectre.Console.Color.CornflowerBlue">
+  CornflowerBlue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color CornflowerBlue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Cornsilk1_" data-uid="Spectre.Console.Color.Cornsilk1*"></a>
+
+  <h3 id="Spectre_Console_Color_Cornsilk1" data-uid="Spectre.Console.Color.Cornsilk1">
+  Cornsilk1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Cornsilk1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Cyan1_" data-uid="Spectre.Console.Color.Cyan1*"></a>
+
+  <h3 id="Spectre_Console_Color_Cyan1" data-uid="Spectre.Console.Color.Cyan1">
+  Cyan1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Cyan1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Cyan2_" data-uid="Spectre.Console.Color.Cyan2*"></a>
+
+  <h3 id="Spectre_Console_Color_Cyan2" data-uid="Spectre.Console.Color.Cyan2">
+  Cyan2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Cyan2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Cyan3_" data-uid="Spectre.Console.Color.Cyan3*"></a>
+
+  <h3 id="Spectre_Console_Color_Cyan3" data-uid="Spectre.Console.Color.Cyan3">
+  Cyan3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Cyan3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkBlue_" data-uid="Spectre.Console.Color.DarkBlue*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkBlue" data-uid="Spectre.Console.Color.DarkBlue">
+  DarkBlue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkBlue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkCyan_" data-uid="Spectre.Console.Color.DarkCyan*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkCyan" data-uid="Spectre.Console.Color.DarkCyan">
+  DarkCyan
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkCyan { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkGoldenrod_" data-uid="Spectre.Console.Color.DarkGoldenrod*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkGoldenrod" data-uid="Spectre.Console.Color.DarkGoldenrod">
+  DarkGoldenrod
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkGoldenrod { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkGreen_" data-uid="Spectre.Console.Color.DarkGreen*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkGreen" data-uid="Spectre.Console.Color.DarkGreen">
+  DarkGreen
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkGreen { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkKhaki_" data-uid="Spectre.Console.Color.DarkKhaki*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkKhaki" data-uid="Spectre.Console.Color.DarkKhaki">
+  DarkKhaki
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkKhaki { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkMagenta_" data-uid="Spectre.Console.Color.DarkMagenta*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkMagenta" data-uid="Spectre.Console.Color.DarkMagenta">
+  DarkMagenta
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkMagenta { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkMagenta_1_" data-uid="Spectre.Console.Color.DarkMagenta_1*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkMagenta_1" data-uid="Spectre.Console.Color.DarkMagenta_1">
+  DarkMagenta_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkMagenta_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkOliveGreen1_" data-uid="Spectre.Console.Color.DarkOliveGreen1*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkOliveGreen1" data-uid="Spectre.Console.Color.DarkOliveGreen1">
+  DarkOliveGreen1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkOliveGreen1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkOliveGreen1_1_" data-uid="Spectre.Console.Color.DarkOliveGreen1_1*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkOliveGreen1_1" data-uid="Spectre.Console.Color.DarkOliveGreen1_1">
+  DarkOliveGreen1_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkOliveGreen1_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkOliveGreen2_" data-uid="Spectre.Console.Color.DarkOliveGreen2*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkOliveGreen2" data-uid="Spectre.Console.Color.DarkOliveGreen2">
+  DarkOliveGreen2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkOliveGreen2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkOliveGreen3_" data-uid="Spectre.Console.Color.DarkOliveGreen3*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkOliveGreen3" data-uid="Spectre.Console.Color.DarkOliveGreen3">
+  DarkOliveGreen3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkOliveGreen3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkOliveGreen3_1_" data-uid="Spectre.Console.Color.DarkOliveGreen3_1*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkOliveGreen3_1" data-uid="Spectre.Console.Color.DarkOliveGreen3_1">
+  DarkOliveGreen3_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkOliveGreen3_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkOliveGreen3_2_" data-uid="Spectre.Console.Color.DarkOliveGreen3_2*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkOliveGreen3_2" data-uid="Spectre.Console.Color.DarkOliveGreen3_2">
+  DarkOliveGreen3_2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkOliveGreen3_2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkOrange_" data-uid="Spectre.Console.Color.DarkOrange*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkOrange" data-uid="Spectre.Console.Color.DarkOrange">
+  DarkOrange
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkOrange { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkOrange3_" data-uid="Spectre.Console.Color.DarkOrange3*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkOrange3" data-uid="Spectre.Console.Color.DarkOrange3">
+  DarkOrange3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkOrange3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkOrange3_1_" data-uid="Spectre.Console.Color.DarkOrange3_1*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkOrange3_1" data-uid="Spectre.Console.Color.DarkOrange3_1">
+  DarkOrange3_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkOrange3_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkRed_" data-uid="Spectre.Console.Color.DarkRed*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkRed" data-uid="Spectre.Console.Color.DarkRed">
+  DarkRed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkRed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkRed_1_" data-uid="Spectre.Console.Color.DarkRed_1*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkRed_1" data-uid="Spectre.Console.Color.DarkRed_1">
+  DarkRed_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkRed_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkSeaGreen_" data-uid="Spectre.Console.Color.DarkSeaGreen*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkSeaGreen" data-uid="Spectre.Console.Color.DarkSeaGreen">
+  DarkSeaGreen
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkSeaGreen { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkSeaGreen1_" data-uid="Spectre.Console.Color.DarkSeaGreen1*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkSeaGreen1" data-uid="Spectre.Console.Color.DarkSeaGreen1">
+  DarkSeaGreen1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkSeaGreen1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkSeaGreen1_1_" data-uid="Spectre.Console.Color.DarkSeaGreen1_1*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkSeaGreen1_1" data-uid="Spectre.Console.Color.DarkSeaGreen1_1">
+  DarkSeaGreen1_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkSeaGreen1_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkSeaGreen2_" data-uid="Spectre.Console.Color.DarkSeaGreen2*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkSeaGreen2" data-uid="Spectre.Console.Color.DarkSeaGreen2">
+  DarkSeaGreen2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkSeaGreen2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkSeaGreen2_1_" data-uid="Spectre.Console.Color.DarkSeaGreen2_1*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkSeaGreen2_1" data-uid="Spectre.Console.Color.DarkSeaGreen2_1">
+  DarkSeaGreen2_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkSeaGreen2_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkSeaGreen3_" data-uid="Spectre.Console.Color.DarkSeaGreen3*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkSeaGreen3" data-uid="Spectre.Console.Color.DarkSeaGreen3">
+  DarkSeaGreen3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkSeaGreen3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkSeaGreen3_1_" data-uid="Spectre.Console.Color.DarkSeaGreen3_1*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkSeaGreen3_1" data-uid="Spectre.Console.Color.DarkSeaGreen3_1">
+  DarkSeaGreen3_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkSeaGreen3_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkSeaGreen4_" data-uid="Spectre.Console.Color.DarkSeaGreen4*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkSeaGreen4" data-uid="Spectre.Console.Color.DarkSeaGreen4">
+  DarkSeaGreen4
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkSeaGreen4 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkSeaGreen4_1_" data-uid="Spectre.Console.Color.DarkSeaGreen4_1*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkSeaGreen4_1" data-uid="Spectre.Console.Color.DarkSeaGreen4_1">
+  DarkSeaGreen4_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkSeaGreen4_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkSlateGray1_" data-uid="Spectre.Console.Color.DarkSlateGray1*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkSlateGray1" data-uid="Spectre.Console.Color.DarkSlateGray1">
+  DarkSlateGray1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkSlateGray1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkSlateGray2_" data-uid="Spectre.Console.Color.DarkSlateGray2*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkSlateGray2" data-uid="Spectre.Console.Color.DarkSlateGray2">
+  DarkSlateGray2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkSlateGray2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkSlateGray3_" data-uid="Spectre.Console.Color.DarkSlateGray3*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkSlateGray3" data-uid="Spectre.Console.Color.DarkSlateGray3">
+  DarkSlateGray3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkSlateGray3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkTurquoise_" data-uid="Spectre.Console.Color.DarkTurquoise*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkTurquoise" data-uid="Spectre.Console.Color.DarkTurquoise">
+  DarkTurquoise
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkTurquoise { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkViolet_" data-uid="Spectre.Console.Color.DarkViolet*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkViolet" data-uid="Spectre.Console.Color.DarkViolet">
+  DarkViolet
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkViolet { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DarkViolet_1_" data-uid="Spectre.Console.Color.DarkViolet_1*"></a>
+
+  <h3 id="Spectre_Console_Color_DarkViolet_1" data-uid="Spectre.Console.Color.DarkViolet_1">
+  DarkViolet_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DarkViolet_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DeepPink1_" data-uid="Spectre.Console.Color.DeepPink1*"></a>
+
+  <h3 id="Spectre_Console_Color_DeepPink1" data-uid="Spectre.Console.Color.DeepPink1">
+  DeepPink1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DeepPink1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DeepPink1_1_" data-uid="Spectre.Console.Color.DeepPink1_1*"></a>
+
+  <h3 id="Spectre_Console_Color_DeepPink1_1" data-uid="Spectre.Console.Color.DeepPink1_1">
+  DeepPink1_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DeepPink1_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DeepPink2_" data-uid="Spectre.Console.Color.DeepPink2*"></a>
+
+  <h3 id="Spectre_Console_Color_DeepPink2" data-uid="Spectre.Console.Color.DeepPink2">
+  DeepPink2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DeepPink2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DeepPink3_" data-uid="Spectre.Console.Color.DeepPink3*"></a>
+
+  <h3 id="Spectre_Console_Color_DeepPink3" data-uid="Spectre.Console.Color.DeepPink3">
+  DeepPink3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DeepPink3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DeepPink3_1_" data-uid="Spectre.Console.Color.DeepPink3_1*"></a>
+
+  <h3 id="Spectre_Console_Color_DeepPink3_1" data-uid="Spectre.Console.Color.DeepPink3_1">
+  DeepPink3_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DeepPink3_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DeepPink4_" data-uid="Spectre.Console.Color.DeepPink4*"></a>
+
+  <h3 id="Spectre_Console_Color_DeepPink4" data-uid="Spectre.Console.Color.DeepPink4">
+  DeepPink4
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DeepPink4 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DeepPink4_1_" data-uid="Spectre.Console.Color.DeepPink4_1*"></a>
+
+  <h3 id="Spectre_Console_Color_DeepPink4_1" data-uid="Spectre.Console.Color.DeepPink4_1">
+  DeepPink4_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DeepPink4_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DeepPink4_2_" data-uid="Spectre.Console.Color.DeepPink4_2*"></a>
+
+  <h3 id="Spectre_Console_Color_DeepPink4_2" data-uid="Spectre.Console.Color.DeepPink4_2">
+  DeepPink4_2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DeepPink4_2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DeepSkyBlue1_" data-uid="Spectre.Console.Color.DeepSkyBlue1*"></a>
+
+  <h3 id="Spectre_Console_Color_DeepSkyBlue1" data-uid="Spectre.Console.Color.DeepSkyBlue1">
+  DeepSkyBlue1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DeepSkyBlue1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DeepSkyBlue2_" data-uid="Spectre.Console.Color.DeepSkyBlue2*"></a>
+
+  <h3 id="Spectre_Console_Color_DeepSkyBlue2" data-uid="Spectre.Console.Color.DeepSkyBlue2">
+  DeepSkyBlue2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DeepSkyBlue2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DeepSkyBlue3_" data-uid="Spectre.Console.Color.DeepSkyBlue3*"></a>
+
+  <h3 id="Spectre_Console_Color_DeepSkyBlue3" data-uid="Spectre.Console.Color.DeepSkyBlue3">
+  DeepSkyBlue3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DeepSkyBlue3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DeepSkyBlue3_1_" data-uid="Spectre.Console.Color.DeepSkyBlue3_1*"></a>
+
+  <h3 id="Spectre_Console_Color_DeepSkyBlue3_1" data-uid="Spectre.Console.Color.DeepSkyBlue3_1">
+  DeepSkyBlue3_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DeepSkyBlue3_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DeepSkyBlue4_" data-uid="Spectre.Console.Color.DeepSkyBlue4*"></a>
+
+  <h3 id="Spectre_Console_Color_DeepSkyBlue4" data-uid="Spectre.Console.Color.DeepSkyBlue4">
+  DeepSkyBlue4
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DeepSkyBlue4 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DeepSkyBlue4_1_" data-uid="Spectre.Console.Color.DeepSkyBlue4_1*"></a>
+
+  <h3 id="Spectre_Console_Color_DeepSkyBlue4_1" data-uid="Spectre.Console.Color.DeepSkyBlue4_1">
+  DeepSkyBlue4_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DeepSkyBlue4_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DeepSkyBlue4_2_" data-uid="Spectre.Console.Color.DeepSkyBlue4_2*"></a>
+
+  <h3 id="Spectre_Console_Color_DeepSkyBlue4_2" data-uid="Spectre.Console.Color.DeepSkyBlue4_2">
+  DeepSkyBlue4_2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DeepSkyBlue4_2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Default_" data-uid="Spectre.Console.Color.Default*"></a>
+
+  <h3 id="Spectre_Console_Color_Default" data-uid="Spectre.Console.Color.Default">
+  Default
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Default { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DodgerBlue1_" data-uid="Spectre.Console.Color.DodgerBlue1*"></a>
+
+  <h3 id="Spectre_Console_Color_DodgerBlue1" data-uid="Spectre.Console.Color.DodgerBlue1">
+  DodgerBlue1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DodgerBlue1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DodgerBlue2_" data-uid="Spectre.Console.Color.DodgerBlue2*"></a>
+
+  <h3 id="Spectre_Console_Color_DodgerBlue2" data-uid="Spectre.Console.Color.DodgerBlue2">
+  DodgerBlue2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DodgerBlue2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_DodgerBlue3_" data-uid="Spectre.Console.Color.DodgerBlue3*"></a>
+
+  <h3 id="Spectre_Console_Color_DodgerBlue3" data-uid="Spectre.Console.Color.DodgerBlue3">
+  DodgerBlue3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color DodgerBlue3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Fuchsia_" data-uid="Spectre.Console.Color.Fuchsia*"></a>
+
+  <h3 id="Spectre_Console_Color_Fuchsia" data-uid="Spectre.Console.Color.Fuchsia">
+  Fuchsia
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Fuchsia { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_G_" data-uid="Spectre.Console.Color.G*"></a>
+
+  <h3 id="Spectre_Console_Color_G" data-uid="Spectre.Console.Color.G">
+  G
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly byte G { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Gold1_" data-uid="Spectre.Console.Color.Gold1*"></a>
+
+  <h3 id="Spectre_Console_Color_Gold1" data-uid="Spectre.Console.Color.Gold1">
+  Gold1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Gold1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Gold3_" data-uid="Spectre.Console.Color.Gold3*"></a>
+
+  <h3 id="Spectre_Console_Color_Gold3" data-uid="Spectre.Console.Color.Gold3">
+  Gold3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Gold3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Gold3_1_" data-uid="Spectre.Console.Color.Gold3_1*"></a>
+
+  <h3 id="Spectre_Console_Color_Gold3_1" data-uid="Spectre.Console.Color.Gold3_1">
+  Gold3_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Gold3_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Green_" data-uid="Spectre.Console.Color.Green*"></a>
+
+  <h3 id="Spectre_Console_Color_Green" data-uid="Spectre.Console.Color.Green">
+  Green
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Green { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Green1_" data-uid="Spectre.Console.Color.Green1*"></a>
+
+  <h3 id="Spectre_Console_Color_Green1" data-uid="Spectre.Console.Color.Green1">
+  Green1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Green1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Green3_" data-uid="Spectre.Console.Color.Green3*"></a>
+
+  <h3 id="Spectre_Console_Color_Green3" data-uid="Spectre.Console.Color.Green3">
+  Green3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Green3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Green3_1_" data-uid="Spectre.Console.Color.Green3_1*"></a>
+
+  <h3 id="Spectre_Console_Color_Green3_1" data-uid="Spectre.Console.Color.Green3_1">
+  Green3_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Green3_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Green4_" data-uid="Spectre.Console.Color.Green4*"></a>
+
+  <h3 id="Spectre_Console_Color_Green4" data-uid="Spectre.Console.Color.Green4">
+  Green4
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Green4 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_GreenYellow_" data-uid="Spectre.Console.Color.GreenYellow*"></a>
+
+  <h3 id="Spectre_Console_Color_GreenYellow" data-uid="Spectre.Console.Color.GreenYellow">
+  GreenYellow
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color GreenYellow { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey_" data-uid="Spectre.Console.Color.Grey*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey" data-uid="Spectre.Console.Color.Grey">
+  Grey
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey0_" data-uid="Spectre.Console.Color.Grey0*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey0" data-uid="Spectre.Console.Color.Grey0">
+  Grey0
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey0 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey100_" data-uid="Spectre.Console.Color.Grey100*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey100" data-uid="Spectre.Console.Color.Grey100">
+  Grey100
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey100 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey11_" data-uid="Spectre.Console.Color.Grey11*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey11" data-uid="Spectre.Console.Color.Grey11">
+  Grey11
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey11 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey15_" data-uid="Spectre.Console.Color.Grey15*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey15" data-uid="Spectre.Console.Color.Grey15">
+  Grey15
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey15 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey19_" data-uid="Spectre.Console.Color.Grey19*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey19" data-uid="Spectre.Console.Color.Grey19">
+  Grey19
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey19 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey23_" data-uid="Spectre.Console.Color.Grey23*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey23" data-uid="Spectre.Console.Color.Grey23">
+  Grey23
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey23 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey27_" data-uid="Spectre.Console.Color.Grey27*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey27" data-uid="Spectre.Console.Color.Grey27">
+  Grey27
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey27 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey3_" data-uid="Spectre.Console.Color.Grey3*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey3" data-uid="Spectre.Console.Color.Grey3">
+  Grey3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey30_" data-uid="Spectre.Console.Color.Grey30*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey30" data-uid="Spectre.Console.Color.Grey30">
+  Grey30
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey30 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey35_" data-uid="Spectre.Console.Color.Grey35*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey35" data-uid="Spectre.Console.Color.Grey35">
+  Grey35
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey35 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey37_" data-uid="Spectre.Console.Color.Grey37*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey37" data-uid="Spectre.Console.Color.Grey37">
+  Grey37
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey37 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey39_" data-uid="Spectre.Console.Color.Grey39*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey39" data-uid="Spectre.Console.Color.Grey39">
+  Grey39
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey39 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey42_" data-uid="Spectre.Console.Color.Grey42*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey42" data-uid="Spectre.Console.Color.Grey42">
+  Grey42
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey42 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey46_" data-uid="Spectre.Console.Color.Grey46*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey46" data-uid="Spectre.Console.Color.Grey46">
+  Grey46
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey46 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey50_" data-uid="Spectre.Console.Color.Grey50*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey50" data-uid="Spectre.Console.Color.Grey50">
+  Grey50
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey50 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey53_" data-uid="Spectre.Console.Color.Grey53*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey53" data-uid="Spectre.Console.Color.Grey53">
+  Grey53
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey53 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey54_" data-uid="Spectre.Console.Color.Grey54*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey54" data-uid="Spectre.Console.Color.Grey54">
+  Grey54
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey54 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey58_" data-uid="Spectre.Console.Color.Grey58*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey58" data-uid="Spectre.Console.Color.Grey58">
+  Grey58
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey58 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey62_" data-uid="Spectre.Console.Color.Grey62*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey62" data-uid="Spectre.Console.Color.Grey62">
+  Grey62
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey62 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey63_" data-uid="Spectre.Console.Color.Grey63*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey63" data-uid="Spectre.Console.Color.Grey63">
+  Grey63
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey63 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey66_" data-uid="Spectre.Console.Color.Grey66*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey66" data-uid="Spectre.Console.Color.Grey66">
+  Grey66
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey66 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey69_" data-uid="Spectre.Console.Color.Grey69*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey69" data-uid="Spectre.Console.Color.Grey69">
+  Grey69
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey69 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey7_" data-uid="Spectre.Console.Color.Grey7*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey7" data-uid="Spectre.Console.Color.Grey7">
+  Grey7
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey7 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey70_" data-uid="Spectre.Console.Color.Grey70*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey70" data-uid="Spectre.Console.Color.Grey70">
+  Grey70
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey70 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey74_" data-uid="Spectre.Console.Color.Grey74*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey74" data-uid="Spectre.Console.Color.Grey74">
+  Grey74
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey74 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey78_" data-uid="Spectre.Console.Color.Grey78*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey78" data-uid="Spectre.Console.Color.Grey78">
+  Grey78
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey78 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey82_" data-uid="Spectre.Console.Color.Grey82*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey82" data-uid="Spectre.Console.Color.Grey82">
+  Grey82
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey82 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey84_" data-uid="Spectre.Console.Color.Grey84*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey84" data-uid="Spectre.Console.Color.Grey84">
+  Grey84
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey84 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey85_" data-uid="Spectre.Console.Color.Grey85*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey85" data-uid="Spectre.Console.Color.Grey85">
+  Grey85
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey85 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey89_" data-uid="Spectre.Console.Color.Grey89*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey89" data-uid="Spectre.Console.Color.Grey89">
+  Grey89
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey89 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Grey93_" data-uid="Spectre.Console.Color.Grey93*"></a>
+
+  <h3 id="Spectre_Console_Color_Grey93" data-uid="Spectre.Console.Color.Grey93">
+  Grey93
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Grey93 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Honeydew2_" data-uid="Spectre.Console.Color.Honeydew2*"></a>
+
+  <h3 id="Spectre_Console_Color_Honeydew2" data-uid="Spectre.Console.Color.Honeydew2">
+  Honeydew2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Honeydew2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_HotPink_" data-uid="Spectre.Console.Color.HotPink*"></a>
+
+  <h3 id="Spectre_Console_Color_HotPink" data-uid="Spectre.Console.Color.HotPink">
+  HotPink
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color HotPink { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_HotPink2_" data-uid="Spectre.Console.Color.HotPink2*"></a>
+
+  <h3 id="Spectre_Console_Color_HotPink2" data-uid="Spectre.Console.Color.HotPink2">
+  HotPink2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color HotPink2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_HotPink3_" data-uid="Spectre.Console.Color.HotPink3*"></a>
+
+  <h3 id="Spectre_Console_Color_HotPink3" data-uid="Spectre.Console.Color.HotPink3">
+  HotPink3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color HotPink3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_HotPink3_1_" data-uid="Spectre.Console.Color.HotPink3_1*"></a>
+
+  <h3 id="Spectre_Console_Color_HotPink3_1" data-uid="Spectre.Console.Color.HotPink3_1">
+  HotPink3_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color HotPink3_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_HotPink_1_" data-uid="Spectre.Console.Color.HotPink_1*"></a>
+
+  <h3 id="Spectre_Console_Color_HotPink_1" data-uid="Spectre.Console.Color.HotPink_1">
+  HotPink_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color HotPink_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_IndianRed_" data-uid="Spectre.Console.Color.IndianRed*"></a>
+
+  <h3 id="Spectre_Console_Color_IndianRed" data-uid="Spectre.Console.Color.IndianRed">
+  IndianRed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color IndianRed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_IndianRed1_" data-uid="Spectre.Console.Color.IndianRed1*"></a>
+
+  <h3 id="Spectre_Console_Color_IndianRed1" data-uid="Spectre.Console.Color.IndianRed1">
+  IndianRed1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color IndianRed1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_IndianRed1_1_" data-uid="Spectre.Console.Color.IndianRed1_1*"></a>
+
+  <h3 id="Spectre_Console_Color_IndianRed1_1" data-uid="Spectre.Console.Color.IndianRed1_1">
+  IndianRed1_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color IndianRed1_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_IndianRed_1_" data-uid="Spectre.Console.Color.IndianRed_1*"></a>
+
+  <h3 id="Spectre_Console_Color_IndianRed_1" data-uid="Spectre.Console.Color.IndianRed_1">
+  IndianRed_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color IndianRed_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Khaki1_" data-uid="Spectre.Console.Color.Khaki1*"></a>
+
+  <h3 id="Spectre_Console_Color_Khaki1" data-uid="Spectre.Console.Color.Khaki1">
+  Khaki1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Khaki1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Khaki3_" data-uid="Spectre.Console.Color.Khaki3*"></a>
+
+  <h3 id="Spectre_Console_Color_Khaki3" data-uid="Spectre.Console.Color.Khaki3">
+  Khaki3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Khaki3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightCoral_" data-uid="Spectre.Console.Color.LightCoral*"></a>
+
+  <h3 id="Spectre_Console_Color_LightCoral" data-uid="Spectre.Console.Color.LightCoral">
+  LightCoral
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightCoral { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightCyan1_" data-uid="Spectre.Console.Color.LightCyan1*"></a>
+
+  <h3 id="Spectre_Console_Color_LightCyan1" data-uid="Spectre.Console.Color.LightCyan1">
+  LightCyan1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightCyan1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightCyan3_" data-uid="Spectre.Console.Color.LightCyan3*"></a>
+
+  <h3 id="Spectre_Console_Color_LightCyan3" data-uid="Spectre.Console.Color.LightCyan3">
+  LightCyan3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightCyan3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightGoldenrod1_" data-uid="Spectre.Console.Color.LightGoldenrod1*"></a>
+
+  <h3 id="Spectre_Console_Color_LightGoldenrod1" data-uid="Spectre.Console.Color.LightGoldenrod1">
+  LightGoldenrod1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightGoldenrod1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightGoldenrod2_" data-uid="Spectre.Console.Color.LightGoldenrod2*"></a>
+
+  <h3 id="Spectre_Console_Color_LightGoldenrod2" data-uid="Spectre.Console.Color.LightGoldenrod2">
+  LightGoldenrod2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightGoldenrod2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightGoldenrod2_1_" data-uid="Spectre.Console.Color.LightGoldenrod2_1*"></a>
+
+  <h3 id="Spectre_Console_Color_LightGoldenrod2_1" data-uid="Spectre.Console.Color.LightGoldenrod2_1">
+  LightGoldenrod2_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightGoldenrod2_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightGoldenrod2_2_" data-uid="Spectre.Console.Color.LightGoldenrod2_2*"></a>
+
+  <h3 id="Spectre_Console_Color_LightGoldenrod2_2" data-uid="Spectre.Console.Color.LightGoldenrod2_2">
+  LightGoldenrod2_2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightGoldenrod2_2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightGoldenrod3_" data-uid="Spectre.Console.Color.LightGoldenrod3*"></a>
+
+  <h3 id="Spectre_Console_Color_LightGoldenrod3" data-uid="Spectre.Console.Color.LightGoldenrod3">
+  LightGoldenrod3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightGoldenrod3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightGreen_" data-uid="Spectre.Console.Color.LightGreen*"></a>
+
+  <h3 id="Spectre_Console_Color_LightGreen" data-uid="Spectre.Console.Color.LightGreen">
+  LightGreen
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightGreen { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightGreen_1_" data-uid="Spectre.Console.Color.LightGreen_1*"></a>
+
+  <h3 id="Spectre_Console_Color_LightGreen_1" data-uid="Spectre.Console.Color.LightGreen_1">
+  LightGreen_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightGreen_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightPink1_" data-uid="Spectre.Console.Color.LightPink1*"></a>
+
+  <h3 id="Spectre_Console_Color_LightPink1" data-uid="Spectre.Console.Color.LightPink1">
+  LightPink1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightPink1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightPink3_" data-uid="Spectre.Console.Color.LightPink3*"></a>
+
+  <h3 id="Spectre_Console_Color_LightPink3" data-uid="Spectre.Console.Color.LightPink3">
+  LightPink3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightPink3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightPink4_" data-uid="Spectre.Console.Color.LightPink4*"></a>
+
+  <h3 id="Spectre_Console_Color_LightPink4" data-uid="Spectre.Console.Color.LightPink4">
+  LightPink4
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightPink4 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightSalmon1_" data-uid="Spectre.Console.Color.LightSalmon1*"></a>
+
+  <h3 id="Spectre_Console_Color_LightSalmon1" data-uid="Spectre.Console.Color.LightSalmon1">
+  LightSalmon1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightSalmon1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightSalmon3_" data-uid="Spectre.Console.Color.LightSalmon3*"></a>
+
+  <h3 id="Spectre_Console_Color_LightSalmon3" data-uid="Spectre.Console.Color.LightSalmon3">
+  LightSalmon3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightSalmon3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightSalmon3_1_" data-uid="Spectre.Console.Color.LightSalmon3_1*"></a>
+
+  <h3 id="Spectre_Console_Color_LightSalmon3_1" data-uid="Spectre.Console.Color.LightSalmon3_1">
+  LightSalmon3_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightSalmon3_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightSeaGreen_" data-uid="Spectre.Console.Color.LightSeaGreen*"></a>
+
+  <h3 id="Spectre_Console_Color_LightSeaGreen" data-uid="Spectre.Console.Color.LightSeaGreen">
+  LightSeaGreen
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightSeaGreen { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightSkyBlue1_" data-uid="Spectre.Console.Color.LightSkyBlue1*"></a>
+
+  <h3 id="Spectre_Console_Color_LightSkyBlue1" data-uid="Spectre.Console.Color.LightSkyBlue1">
+  LightSkyBlue1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightSkyBlue1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightSkyBlue3_" data-uid="Spectre.Console.Color.LightSkyBlue3*"></a>
+
+  <h3 id="Spectre_Console_Color_LightSkyBlue3" data-uid="Spectre.Console.Color.LightSkyBlue3">
+  LightSkyBlue3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightSkyBlue3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightSkyBlue3_1_" data-uid="Spectre.Console.Color.LightSkyBlue3_1*"></a>
+
+  <h3 id="Spectre_Console_Color_LightSkyBlue3_1" data-uid="Spectre.Console.Color.LightSkyBlue3_1">
+  LightSkyBlue3_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightSkyBlue3_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightSlateBlue_" data-uid="Spectre.Console.Color.LightSlateBlue*"></a>
+
+  <h3 id="Spectre_Console_Color_LightSlateBlue" data-uid="Spectre.Console.Color.LightSlateBlue">
+  LightSlateBlue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightSlateBlue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightSlateGrey_" data-uid="Spectre.Console.Color.LightSlateGrey*"></a>
+
+  <h3 id="Spectre_Console_Color_LightSlateGrey" data-uid="Spectre.Console.Color.LightSlateGrey">
+  LightSlateGrey
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightSlateGrey { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightSteelBlue_" data-uid="Spectre.Console.Color.LightSteelBlue*"></a>
+
+  <h3 id="Spectre_Console_Color_LightSteelBlue" data-uid="Spectre.Console.Color.LightSteelBlue">
+  LightSteelBlue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightSteelBlue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightSteelBlue1_" data-uid="Spectre.Console.Color.LightSteelBlue1*"></a>
+
+  <h3 id="Spectre_Console_Color_LightSteelBlue1" data-uid="Spectre.Console.Color.LightSteelBlue1">
+  LightSteelBlue1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightSteelBlue1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightSteelBlue3_" data-uid="Spectre.Console.Color.LightSteelBlue3*"></a>
+
+  <h3 id="Spectre_Console_Color_LightSteelBlue3" data-uid="Spectre.Console.Color.LightSteelBlue3">
+  LightSteelBlue3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightSteelBlue3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_LightYellow3_" data-uid="Spectre.Console.Color.LightYellow3*"></a>
+
+  <h3 id="Spectre_Console_Color_LightYellow3" data-uid="Spectre.Console.Color.LightYellow3">
+  LightYellow3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color LightYellow3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Lime_" data-uid="Spectre.Console.Color.Lime*"></a>
+
+  <h3 id="Spectre_Console_Color_Lime" data-uid="Spectre.Console.Color.Lime">
+  Lime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Lime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Magenta1_" data-uid="Spectre.Console.Color.Magenta1*"></a>
+
+  <h3 id="Spectre_Console_Color_Magenta1" data-uid="Spectre.Console.Color.Magenta1">
+  Magenta1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Magenta1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Magenta2_" data-uid="Spectre.Console.Color.Magenta2*"></a>
+
+  <h3 id="Spectre_Console_Color_Magenta2" data-uid="Spectre.Console.Color.Magenta2">
+  Magenta2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Magenta2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Magenta2_1_" data-uid="Spectre.Console.Color.Magenta2_1*"></a>
+
+  <h3 id="Spectre_Console_Color_Magenta2_1" data-uid="Spectre.Console.Color.Magenta2_1">
+  Magenta2_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Magenta2_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Magenta3_" data-uid="Spectre.Console.Color.Magenta3*"></a>
+
+  <h3 id="Spectre_Console_Color_Magenta3" data-uid="Spectre.Console.Color.Magenta3">
+  Magenta3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Magenta3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Magenta3_1_" data-uid="Spectre.Console.Color.Magenta3_1*"></a>
+
+  <h3 id="Spectre_Console_Color_Magenta3_1" data-uid="Spectre.Console.Color.Magenta3_1">
+  Magenta3_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Magenta3_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Magenta3_2_" data-uid="Spectre.Console.Color.Magenta3_2*"></a>
+
+  <h3 id="Spectre_Console_Color_Magenta3_2" data-uid="Spectre.Console.Color.Magenta3_2">
+  Magenta3_2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Magenta3_2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Maroon_" data-uid="Spectre.Console.Color.Maroon*"></a>
+
+  <h3 id="Spectre_Console_Color_Maroon" data-uid="Spectre.Console.Color.Maroon">
+  Maroon
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Maroon { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_MediumOrchid_" data-uid="Spectre.Console.Color.MediumOrchid*"></a>
+
+  <h3 id="Spectre_Console_Color_MediumOrchid" data-uid="Spectre.Console.Color.MediumOrchid">
+  MediumOrchid
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color MediumOrchid { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_MediumOrchid1_" data-uid="Spectre.Console.Color.MediumOrchid1*"></a>
+
+  <h3 id="Spectre_Console_Color_MediumOrchid1" data-uid="Spectre.Console.Color.MediumOrchid1">
+  MediumOrchid1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color MediumOrchid1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_MediumOrchid1_1_" data-uid="Spectre.Console.Color.MediumOrchid1_1*"></a>
+
+  <h3 id="Spectre_Console_Color_MediumOrchid1_1" data-uid="Spectre.Console.Color.MediumOrchid1_1">
+  MediumOrchid1_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color MediumOrchid1_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_MediumOrchid3_" data-uid="Spectre.Console.Color.MediumOrchid3*"></a>
+
+  <h3 id="Spectre_Console_Color_MediumOrchid3" data-uid="Spectre.Console.Color.MediumOrchid3">
+  MediumOrchid3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color MediumOrchid3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_MediumPurple_" data-uid="Spectre.Console.Color.MediumPurple*"></a>
+
+  <h3 id="Spectre_Console_Color_MediumPurple" data-uid="Spectre.Console.Color.MediumPurple">
+  MediumPurple
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color MediumPurple { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_MediumPurple1_" data-uid="Spectre.Console.Color.MediumPurple1*"></a>
+
+  <h3 id="Spectre_Console_Color_MediumPurple1" data-uid="Spectre.Console.Color.MediumPurple1">
+  MediumPurple1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color MediumPurple1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_MediumPurple2_" data-uid="Spectre.Console.Color.MediumPurple2*"></a>
+
+  <h3 id="Spectre_Console_Color_MediumPurple2" data-uid="Spectre.Console.Color.MediumPurple2">
+  MediumPurple2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color MediumPurple2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_MediumPurple2_1_" data-uid="Spectre.Console.Color.MediumPurple2_1*"></a>
+
+  <h3 id="Spectre_Console_Color_MediumPurple2_1" data-uid="Spectre.Console.Color.MediumPurple2_1">
+  MediumPurple2_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color MediumPurple2_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_MediumPurple3_" data-uid="Spectre.Console.Color.MediumPurple3*"></a>
+
+  <h3 id="Spectre_Console_Color_MediumPurple3" data-uid="Spectre.Console.Color.MediumPurple3">
+  MediumPurple3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color MediumPurple3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_MediumPurple3_1_" data-uid="Spectre.Console.Color.MediumPurple3_1*"></a>
+
+  <h3 id="Spectre_Console_Color_MediumPurple3_1" data-uid="Spectre.Console.Color.MediumPurple3_1">
+  MediumPurple3_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color MediumPurple3_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_MediumPurple4_" data-uid="Spectre.Console.Color.MediumPurple4*"></a>
+
+  <h3 id="Spectre_Console_Color_MediumPurple4" data-uid="Spectre.Console.Color.MediumPurple4">
+  MediumPurple4
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color MediumPurple4 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_MediumSpringGreen_" data-uid="Spectre.Console.Color.MediumSpringGreen*"></a>
+
+  <h3 id="Spectre_Console_Color_MediumSpringGreen" data-uid="Spectre.Console.Color.MediumSpringGreen">
+  MediumSpringGreen
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color MediumSpringGreen { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_MediumTurquoise_" data-uid="Spectre.Console.Color.MediumTurquoise*"></a>
+
+  <h3 id="Spectre_Console_Color_MediumTurquoise" data-uid="Spectre.Console.Color.MediumTurquoise">
+  MediumTurquoise
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color MediumTurquoise { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_MediumVioletRed_" data-uid="Spectre.Console.Color.MediumVioletRed*"></a>
+
+  <h3 id="Spectre_Console_Color_MediumVioletRed" data-uid="Spectre.Console.Color.MediumVioletRed">
+  MediumVioletRed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color MediumVioletRed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_MistyRose1_" data-uid="Spectre.Console.Color.MistyRose1*"></a>
+
+  <h3 id="Spectre_Console_Color_MistyRose1" data-uid="Spectre.Console.Color.MistyRose1">
+  MistyRose1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color MistyRose1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_MistyRose3_" data-uid="Spectre.Console.Color.MistyRose3*"></a>
+
+  <h3 id="Spectre_Console_Color_MistyRose3" data-uid="Spectre.Console.Color.MistyRose3">
+  MistyRose3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color MistyRose3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_NavajoWhite1_" data-uid="Spectre.Console.Color.NavajoWhite1*"></a>
+
+  <h3 id="Spectre_Console_Color_NavajoWhite1" data-uid="Spectre.Console.Color.NavajoWhite1">
+  NavajoWhite1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color NavajoWhite1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_NavajoWhite3_" data-uid="Spectre.Console.Color.NavajoWhite3*"></a>
+
+  <h3 id="Spectre_Console_Color_NavajoWhite3" data-uid="Spectre.Console.Color.NavajoWhite3">
+  NavajoWhite3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color NavajoWhite3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Navy_" data-uid="Spectre.Console.Color.Navy*"></a>
+
+  <h3 id="Spectre_Console_Color_Navy" data-uid="Spectre.Console.Color.Navy">
+  Navy
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Navy { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_NavyBlue_" data-uid="Spectre.Console.Color.NavyBlue*"></a>
+
+  <h3 id="Spectre_Console_Color_NavyBlue" data-uid="Spectre.Console.Color.NavyBlue">
+  NavyBlue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color NavyBlue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Olive_" data-uid="Spectre.Console.Color.Olive*"></a>
+
+  <h3 id="Spectre_Console_Color_Olive" data-uid="Spectre.Console.Color.Olive">
+  Olive
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Olive { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Orange1_" data-uid="Spectre.Console.Color.Orange1*"></a>
+
+  <h3 id="Spectre_Console_Color_Orange1" data-uid="Spectre.Console.Color.Orange1">
+  Orange1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Orange1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Orange3_" data-uid="Spectre.Console.Color.Orange3*"></a>
+
+  <h3 id="Spectre_Console_Color_Orange3" data-uid="Spectre.Console.Color.Orange3">
+  Orange3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Orange3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Orange4_" data-uid="Spectre.Console.Color.Orange4*"></a>
+
+  <h3 id="Spectre_Console_Color_Orange4" data-uid="Spectre.Console.Color.Orange4">
+  Orange4
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Orange4 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Orange4_1_" data-uid="Spectre.Console.Color.Orange4_1*"></a>
+
+  <h3 id="Spectre_Console_Color_Orange4_1" data-uid="Spectre.Console.Color.Orange4_1">
+  Orange4_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Orange4_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_OrangeRed1_" data-uid="Spectre.Console.Color.OrangeRed1*"></a>
+
+  <h3 id="Spectre_Console_Color_OrangeRed1" data-uid="Spectre.Console.Color.OrangeRed1">
+  OrangeRed1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color OrangeRed1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Orchid_" data-uid="Spectre.Console.Color.Orchid*"></a>
+
+  <h3 id="Spectre_Console_Color_Orchid" data-uid="Spectre.Console.Color.Orchid">
+  Orchid
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Orchid { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Orchid1_" data-uid="Spectre.Console.Color.Orchid1*"></a>
+
+  <h3 id="Spectre_Console_Color_Orchid1" data-uid="Spectre.Console.Color.Orchid1">
+  Orchid1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Orchid1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Orchid2_" data-uid="Spectre.Console.Color.Orchid2*"></a>
+
+  <h3 id="Spectre_Console_Color_Orchid2" data-uid="Spectre.Console.Color.Orchid2">
+  Orchid2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Orchid2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_PaleGreen1_" data-uid="Spectre.Console.Color.PaleGreen1*"></a>
+
+  <h3 id="Spectre_Console_Color_PaleGreen1" data-uid="Spectre.Console.Color.PaleGreen1">
+  PaleGreen1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color PaleGreen1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_PaleGreen1_1_" data-uid="Spectre.Console.Color.PaleGreen1_1*"></a>
+
+  <h3 id="Spectre_Console_Color_PaleGreen1_1" data-uid="Spectre.Console.Color.PaleGreen1_1">
+  PaleGreen1_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color PaleGreen1_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_PaleGreen3_" data-uid="Spectre.Console.Color.PaleGreen3*"></a>
+
+  <h3 id="Spectre_Console_Color_PaleGreen3" data-uid="Spectre.Console.Color.PaleGreen3">
+  PaleGreen3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color PaleGreen3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_PaleGreen3_1_" data-uid="Spectre.Console.Color.PaleGreen3_1*"></a>
+
+  <h3 id="Spectre_Console_Color_PaleGreen3_1" data-uid="Spectre.Console.Color.PaleGreen3_1">
+  PaleGreen3_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color PaleGreen3_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_PaleTurquoise1_" data-uid="Spectre.Console.Color.PaleTurquoise1*"></a>
+
+  <h3 id="Spectre_Console_Color_PaleTurquoise1" data-uid="Spectre.Console.Color.PaleTurquoise1">
+  PaleTurquoise1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color PaleTurquoise1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_PaleTurquoise4_" data-uid="Spectre.Console.Color.PaleTurquoise4*"></a>
+
+  <h3 id="Spectre_Console_Color_PaleTurquoise4" data-uid="Spectre.Console.Color.PaleTurquoise4">
+  PaleTurquoise4
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color PaleTurquoise4 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_PaleVioletRed1_" data-uid="Spectre.Console.Color.PaleVioletRed1*"></a>
+
+  <h3 id="Spectre_Console_Color_PaleVioletRed1" data-uid="Spectre.Console.Color.PaleVioletRed1">
+  PaleVioletRed1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color PaleVioletRed1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Pink1_" data-uid="Spectre.Console.Color.Pink1*"></a>
+
+  <h3 id="Spectre_Console_Color_Pink1" data-uid="Spectre.Console.Color.Pink1">
+  Pink1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Pink1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Pink3_" data-uid="Spectre.Console.Color.Pink3*"></a>
+
+  <h3 id="Spectre_Console_Color_Pink3" data-uid="Spectre.Console.Color.Pink3">
+  Pink3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Pink3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Plum1_" data-uid="Spectre.Console.Color.Plum1*"></a>
+
+  <h3 id="Spectre_Console_Color_Plum1" data-uid="Spectre.Console.Color.Plum1">
+  Plum1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Plum1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Plum2_" data-uid="Spectre.Console.Color.Plum2*"></a>
+
+  <h3 id="Spectre_Console_Color_Plum2" data-uid="Spectre.Console.Color.Plum2">
+  Plum2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Plum2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Plum3_" data-uid="Spectre.Console.Color.Plum3*"></a>
+
+  <h3 id="Spectre_Console_Color_Plum3" data-uid="Spectre.Console.Color.Plum3">
+  Plum3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Plum3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Plum4_" data-uid="Spectre.Console.Color.Plum4*"></a>
+
+  <h3 id="Spectre_Console_Color_Plum4" data-uid="Spectre.Console.Color.Plum4">
+  Plum4
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Plum4 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Purple_" data-uid="Spectre.Console.Color.Purple*"></a>
+
+  <h3 id="Spectre_Console_Color_Purple" data-uid="Spectre.Console.Color.Purple">
+  Purple
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Purple { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Purple3_" data-uid="Spectre.Console.Color.Purple3*"></a>
+
+  <h3 id="Spectre_Console_Color_Purple3" data-uid="Spectre.Console.Color.Purple3">
+  Purple3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Purple3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Purple4_" data-uid="Spectre.Console.Color.Purple4*"></a>
+
+  <h3 id="Spectre_Console_Color_Purple4" data-uid="Spectre.Console.Color.Purple4">
+  Purple4
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Purple4 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Purple4_1_" data-uid="Spectre.Console.Color.Purple4_1*"></a>
+
+  <h3 id="Spectre_Console_Color_Purple4_1" data-uid="Spectre.Console.Color.Purple4_1">
+  Purple4_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Purple4_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Purple_1_" data-uid="Spectre.Console.Color.Purple_1*"></a>
+
+  <h3 id="Spectre_Console_Color_Purple_1" data-uid="Spectre.Console.Color.Purple_1">
+  Purple_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Purple_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Purple_2_" data-uid="Spectre.Console.Color.Purple_2*"></a>
+
+  <h3 id="Spectre_Console_Color_Purple_2" data-uid="Spectre.Console.Color.Purple_2">
+  Purple_2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Purple_2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_R_" data-uid="Spectre.Console.Color.R*"></a>
+
+  <h3 id="Spectre_Console_Color_R" data-uid="Spectre.Console.Color.R">
+  R
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly byte R { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Red_" data-uid="Spectre.Console.Color.Red*"></a>
+
+  <h3 id="Spectre_Console_Color_Red" data-uid="Spectre.Console.Color.Red">
+  Red
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Red { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Red1_" data-uid="Spectre.Console.Color.Red1*"></a>
+
+  <h3 id="Spectre_Console_Color_Red1" data-uid="Spectre.Console.Color.Red1">
+  Red1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Red1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Red3_" data-uid="Spectre.Console.Color.Red3*"></a>
+
+  <h3 id="Spectre_Console_Color_Red3" data-uid="Spectre.Console.Color.Red3">
+  Red3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Red3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Red3_1_" data-uid="Spectre.Console.Color.Red3_1*"></a>
+
+  <h3 id="Spectre_Console_Color_Red3_1" data-uid="Spectre.Console.Color.Red3_1">
+  Red3_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Red3_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_RosyBrown_" data-uid="Spectre.Console.Color.RosyBrown*"></a>
+
+  <h3 id="Spectre_Console_Color_RosyBrown" data-uid="Spectre.Console.Color.RosyBrown">
+  RosyBrown
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color RosyBrown { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_RoyalBlue1_" data-uid="Spectre.Console.Color.RoyalBlue1*"></a>
+
+  <h3 id="Spectre_Console_Color_RoyalBlue1" data-uid="Spectre.Console.Color.RoyalBlue1">
+  RoyalBlue1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color RoyalBlue1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Salmon1_" data-uid="Spectre.Console.Color.Salmon1*"></a>
+
+  <h3 id="Spectre_Console_Color_Salmon1" data-uid="Spectre.Console.Color.Salmon1">
+  Salmon1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Salmon1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_SandyBrown_" data-uid="Spectre.Console.Color.SandyBrown*"></a>
+
+  <h3 id="Spectre_Console_Color_SandyBrown" data-uid="Spectre.Console.Color.SandyBrown">
+  SandyBrown
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color SandyBrown { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_SeaGreen1_" data-uid="Spectre.Console.Color.SeaGreen1*"></a>
+
+  <h3 id="Spectre_Console_Color_SeaGreen1" data-uid="Spectre.Console.Color.SeaGreen1">
+  SeaGreen1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color SeaGreen1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_SeaGreen1_1_" data-uid="Spectre.Console.Color.SeaGreen1_1*"></a>
+
+  <h3 id="Spectre_Console_Color_SeaGreen1_1" data-uid="Spectre.Console.Color.SeaGreen1_1">
+  SeaGreen1_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color SeaGreen1_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_SeaGreen2_" data-uid="Spectre.Console.Color.SeaGreen2*"></a>
+
+  <h3 id="Spectre_Console_Color_SeaGreen2" data-uid="Spectre.Console.Color.SeaGreen2">
+  SeaGreen2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color SeaGreen2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_SeaGreen3_" data-uid="Spectre.Console.Color.SeaGreen3*"></a>
+
+  <h3 id="Spectre_Console_Color_SeaGreen3" data-uid="Spectre.Console.Color.SeaGreen3">
+  SeaGreen3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color SeaGreen3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Silver_" data-uid="Spectre.Console.Color.Silver*"></a>
+
+  <h3 id="Spectre_Console_Color_Silver" data-uid="Spectre.Console.Color.Silver">
+  Silver
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Silver { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_SkyBlue1_" data-uid="Spectre.Console.Color.SkyBlue1*"></a>
+
+  <h3 id="Spectre_Console_Color_SkyBlue1" data-uid="Spectre.Console.Color.SkyBlue1">
+  SkyBlue1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color SkyBlue1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_SkyBlue2_" data-uid="Spectre.Console.Color.SkyBlue2*"></a>
+
+  <h3 id="Spectre_Console_Color_SkyBlue2" data-uid="Spectre.Console.Color.SkyBlue2">
+  SkyBlue2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color SkyBlue2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_SkyBlue3_" data-uid="Spectre.Console.Color.SkyBlue3*"></a>
+
+  <h3 id="Spectre_Console_Color_SkyBlue3" data-uid="Spectre.Console.Color.SkyBlue3">
+  SkyBlue3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color SkyBlue3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_SlateBlue1_" data-uid="Spectre.Console.Color.SlateBlue1*"></a>
+
+  <h3 id="Spectre_Console_Color_SlateBlue1" data-uid="Spectre.Console.Color.SlateBlue1">
+  SlateBlue1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color SlateBlue1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_SlateBlue3_" data-uid="Spectre.Console.Color.SlateBlue3*"></a>
+
+  <h3 id="Spectre_Console_Color_SlateBlue3" data-uid="Spectre.Console.Color.SlateBlue3">
+  SlateBlue3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color SlateBlue3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_SlateBlue3_1_" data-uid="Spectre.Console.Color.SlateBlue3_1*"></a>
+
+  <h3 id="Spectre_Console_Color_SlateBlue3_1" data-uid="Spectre.Console.Color.SlateBlue3_1">
+  SlateBlue3_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color SlateBlue3_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_SpringGreen1_" data-uid="Spectre.Console.Color.SpringGreen1*"></a>
+
+  <h3 id="Spectre_Console_Color_SpringGreen1" data-uid="Spectre.Console.Color.SpringGreen1">
+  SpringGreen1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color SpringGreen1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_SpringGreen2_" data-uid="Spectre.Console.Color.SpringGreen2*"></a>
+
+  <h3 id="Spectre_Console_Color_SpringGreen2" data-uid="Spectre.Console.Color.SpringGreen2">
+  SpringGreen2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color SpringGreen2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_SpringGreen2_1_" data-uid="Spectre.Console.Color.SpringGreen2_1*"></a>
+
+  <h3 id="Spectre_Console_Color_SpringGreen2_1" data-uid="Spectre.Console.Color.SpringGreen2_1">
+  SpringGreen2_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color SpringGreen2_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_SpringGreen3_" data-uid="Spectre.Console.Color.SpringGreen3*"></a>
+
+  <h3 id="Spectre_Console_Color_SpringGreen3" data-uid="Spectre.Console.Color.SpringGreen3">
+  SpringGreen3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color SpringGreen3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_SpringGreen3_1_" data-uid="Spectre.Console.Color.SpringGreen3_1*"></a>
+
+  <h3 id="Spectre_Console_Color_SpringGreen3_1" data-uid="Spectre.Console.Color.SpringGreen3_1">
+  SpringGreen3_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color SpringGreen3_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_SpringGreen4_" data-uid="Spectre.Console.Color.SpringGreen4*"></a>
+
+  <h3 id="Spectre_Console_Color_SpringGreen4" data-uid="Spectre.Console.Color.SpringGreen4">
+  SpringGreen4
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color SpringGreen4 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_SteelBlue_" data-uid="Spectre.Console.Color.SteelBlue*"></a>
+
+  <h3 id="Spectre_Console_Color_SteelBlue" data-uid="Spectre.Console.Color.SteelBlue">
+  SteelBlue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color SteelBlue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_SteelBlue1_" data-uid="Spectre.Console.Color.SteelBlue1*"></a>
+
+  <h3 id="Spectre_Console_Color_SteelBlue1" data-uid="Spectre.Console.Color.SteelBlue1">
+  SteelBlue1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color SteelBlue1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_SteelBlue1_1_" data-uid="Spectre.Console.Color.SteelBlue1_1*"></a>
+
+  <h3 id="Spectre_Console_Color_SteelBlue1_1" data-uid="Spectre.Console.Color.SteelBlue1_1">
+  SteelBlue1_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color SteelBlue1_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_SteelBlue3_" data-uid="Spectre.Console.Color.SteelBlue3*"></a>
+
+  <h3 id="Spectre_Console_Color_SteelBlue3" data-uid="Spectre.Console.Color.SteelBlue3">
+  SteelBlue3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color SteelBlue3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Tan_" data-uid="Spectre.Console.Color.Tan*"></a>
+
+  <h3 id="Spectre_Console_Color_Tan" data-uid="Spectre.Console.Color.Tan">
+  Tan
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Tan { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Teal_" data-uid="Spectre.Console.Color.Teal*"></a>
+
+  <h3 id="Spectre_Console_Color_Teal" data-uid="Spectre.Console.Color.Teal">
+  Teal
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Teal { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Thistle1_" data-uid="Spectre.Console.Color.Thistle1*"></a>
+
+  <h3 id="Spectre_Console_Color_Thistle1" data-uid="Spectre.Console.Color.Thistle1">
+  Thistle1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Thistle1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Thistle3_" data-uid="Spectre.Console.Color.Thistle3*"></a>
+
+  <h3 id="Spectre_Console_Color_Thistle3" data-uid="Spectre.Console.Color.Thistle3">
+  Thistle3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Thistle3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Turquoise2_" data-uid="Spectre.Console.Color.Turquoise2*"></a>
+
+  <h3 id="Spectre_Console_Color_Turquoise2" data-uid="Spectre.Console.Color.Turquoise2">
+  Turquoise2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Turquoise2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Turquoise4_" data-uid="Spectre.Console.Color.Turquoise4*"></a>
+
+  <h3 id="Spectre_Console_Color_Turquoise4" data-uid="Spectre.Console.Color.Turquoise4">
+  Turquoise4
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Turquoise4 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Violet_" data-uid="Spectre.Console.Color.Violet*"></a>
+
+  <h3 id="Spectre_Console_Color_Violet" data-uid="Spectre.Console.Color.Violet">
+  Violet
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Violet { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Wheat1_" data-uid="Spectre.Console.Color.Wheat1*"></a>
+
+  <h3 id="Spectre_Console_Color_Wheat1" data-uid="Spectre.Console.Color.Wheat1">
+  Wheat1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Wheat1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Wheat4_" data-uid="Spectre.Console.Color.Wheat4*"></a>
+
+  <h3 id="Spectre_Console_Color_Wheat4" data-uid="Spectre.Console.Color.Wheat4">
+  Wheat4
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Wheat4 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_White_" data-uid="Spectre.Console.Color.White*"></a>
+
+  <h3 id="Spectre_Console_Color_White" data-uid="Spectre.Console.Color.White">
+  White
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color White { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Yellow_" data-uid="Spectre.Console.Color.Yellow*"></a>
+
+  <h3 id="Spectre_Console_Color_Yellow" data-uid="Spectre.Console.Color.Yellow">
+  Yellow
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Yellow { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Yellow1_" data-uid="Spectre.Console.Color.Yellow1*"></a>
+
+  <h3 id="Spectre_Console_Color_Yellow1" data-uid="Spectre.Console.Color.Yellow1">
+  Yellow1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Yellow1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Yellow2_" data-uid="Spectre.Console.Color.Yellow2*"></a>
+
+  <h3 id="Spectre_Console_Color_Yellow2" data-uid="Spectre.Console.Color.Yellow2">
+  Yellow2
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Yellow2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Yellow3_" data-uid="Spectre.Console.Color.Yellow3*"></a>
+
+  <h3 id="Spectre_Console_Color_Yellow3" data-uid="Spectre.Console.Color.Yellow3">
+  Yellow3
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Yellow3 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Yellow3_1_" data-uid="Spectre.Console.Color.Yellow3_1*"></a>
+
+  <h3 id="Spectre_Console_Color_Yellow3_1" data-uid="Spectre.Console.Color.Yellow3_1">
+  Yellow3_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Yellow3_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Yellow4_" data-uid="Spectre.Console.Color.Yellow4*"></a>
+
+  <h3 id="Spectre_Console_Color_Yellow4" data-uid="Spectre.Console.Color.Yellow4">
+  Yellow4
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Yellow4 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Yellow4_1_" data-uid="Spectre.Console.Color.Yellow4_1*"></a>
+
+  <h3 id="Spectre_Console_Color_Yellow4_1" data-uid="Spectre.Console.Color.Yellow4_1">
+  Yellow4_1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color Yellow4_1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Spectre_Console_Color_Blend_" data-uid="Spectre.Console.Color.Blend*"></a>
+
+  <h3 id="Spectre_Console_Color_Blend_Spectre_Console_Color_System_Single_" data-uid="Spectre.Console.Color.Blend(Spectre.Console.Color,System.Single)">
+  Blend(Color, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color Blend(Color other, float factor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+    <dt><code>factor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Equals_" data-uid="Spectre.Console.Color.Equals*"></a>
+
+  <h3 id="Spectre_Console_Color_Equals_Spectre_Console_Color_" data-uid="Spectre.Console.Color.Equals(Spectre.Console.Color)">
+  Equals(Color)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(Color other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_Equals_" data-uid="Spectre.Console.Color.Equals*"></a>
+
+  <h3 id="Spectre_Console_Color_Equals_System_Object_" data-uid="Spectre.Console.Color.Equals(System.Object)">
+  Equals(object?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object? obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_FromConsoleColor_" data-uid="Spectre.Console.Color.FromConsoleColor*"></a>
+
+  <h3 id="Spectre_Console_Color_FromConsoleColor_System_ConsoleColor_" data-uid="Spectre.Console.Color.FromConsoleColor(System.ConsoleColor)">
+  FromConsoleColor(ConsoleColor)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color FromConsoleColor(ConsoleColor color)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>color</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_FromInt32_" data-uid="Spectre.Console.Color.FromInt32*"></a>
+
+  <h3 id="Spectre_Console_Color_FromInt32_System_Int32_" data-uid="Spectre.Console.Color.FromInt32(System.Int32)">
+  FromInt32(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color FromInt32(int number)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>number</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_GetHashCode_" data-uid="Spectre.Console.Color.GetHashCode*"></a>
+
+  <h3 id="Spectre_Console_Color_GetHashCode" data-uid="Spectre.Console.Color.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_ToConsoleColor_" data-uid="Spectre.Console.Color.ToConsoleColor*"></a>
+
+  <h3 id="Spectre_Console_Color_ToConsoleColor_Spectre_Console_Color_" data-uid="Spectre.Console.Color.ToConsoleColor(Spectre.Console.Color)">
+  ToConsoleColor(Color)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ConsoleColor ToConsoleColor(Color color)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>color</code> <a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_ToHex_" data-uid="Spectre.Console.Color.ToHex*"></a>
+
+  <h3 id="Spectre_Console_Color_ToHex" data-uid="Spectre.Console.Color.ToHex">
+  ToHex()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ToHex()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_ToMarkup_" data-uid="Spectre.Console.Color.ToMarkup*"></a>
+
+  <h3 id="Spectre_Console_Color_ToMarkup" data-uid="Spectre.Console.Color.ToMarkup">
+  ToMarkup()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ToMarkup()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_ToString_" data-uid="Spectre.Console.Color.ToString*"></a>
+
+  <h3 id="Spectre_Console_Color_ToString" data-uid="Spectre.Console.Color.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="Spectre_Console_Color_op_Equality_" data-uid="Spectre.Console.Color.op_Equality*"></a>
+
+  <h3 id="Spectre_Console_Color_op_Equality_Spectre_Console_Color_Spectre_Console_Color_" data-uid="Spectre.Console.Color.op_Equality(Spectre.Console.Color,Spectre.Console.Color)">
+  operator ==(Color, Color)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(Color left, Color right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_op_Implicit_" data-uid="Spectre.Console.Color.op_Implicit*"></a>
+
+  <h3 id="Spectre_Console_Color_op_Implicit_Spectre_Console_Color__System_ConsoleColor" data-uid="Spectre.Console.Color.op_Implicit(Spectre.Console.Color)~System.ConsoleColor">
+  implicit operator ConsoleColor(Color)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator ConsoleColor(Color color)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>color</code> <a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_op_Implicit_" data-uid="Spectre.Console.Color.op_Implicit*"></a>
+
+  <h3 id="Spectre_Console_Color_op_Implicit_System_ConsoleColor__Spectre_Console_Color" data-uid="Spectre.Console.Color.op_Implicit(System.ConsoleColor)~Spectre.Console.Color">
+  implicit operator Color(ConsoleColor)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Color(ConsoleColor color)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>color</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_op_Implicit_" data-uid="Spectre.Console.Color.op_Implicit*"></a>
+
+  <h3 id="Spectre_Console_Color_op_Implicit_System_Int32__Spectre_Console_Color" data-uid="Spectre.Console.Color.op_Implicit(System.Int32)~Spectre.Console.Color">
+  implicit operator Color(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Color(int number)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>number</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Color_op_Inequality_" data-uid="Spectre.Console.Color.op_Inequality*"></a>
+
+  <h3 id="Spectre_Console_Color_op_Inequality_Spectre_Console_Color_Spectre_Console_Color_" data-uid="Spectre.Console.Color.op_Inequality(Spectre.Console.Color,Spectre.Console.Color)">
+  operator !=(Color, Color)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(Color left, Color right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

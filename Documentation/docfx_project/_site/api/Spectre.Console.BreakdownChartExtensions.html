@@ -1,0 +1,821 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class BreakdownChartExtensions
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class BreakdownChartExtensions
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Spectre.Console.BreakdownChartExtensions">
+
+
+
+  <h1 id="Spectre_Console_BreakdownChartExtensions" data-uid="Spectre.Console.BreakdownChartExtensions" class="text-break">
+    Class BreakdownChartExtensions
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Spectre.html">Spectre</a>.<a class="xref" href="Spectre.Console.html">Console</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Spectre.Console.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class BreakdownChartExtensions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">BreakdownChartExtensions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Spectre_Console_BreakdownChartExtensions_AddItem_" data-uid="Spectre.Console.BreakdownChartExtensions.AddItem*"></a>
+
+  <h3 id="Spectre_Console_BreakdownChartExtensions_AddItem_Spectre_Console_BreakdownChart_System_String_System_Double_Spectre_Console_Color_" data-uid="Spectre.Console.BreakdownChartExtensions.AddItem(Spectre.Console.BreakdownChart,System.String,System.Double,Spectre.Console.Color)">
+  AddItem(BreakdownChart, string, double, Color)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BreakdownChart AddItem(this BreakdownChart chart, string label, double value, Color color)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>chart</code> <a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <a class="xref" href="Spectre.Console.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_BreakdownChartExtensions_AddItem_" data-uid="Spectre.Console.BreakdownChartExtensions.AddItem*"></a>
+
+  <h3 id="Spectre_Console_BreakdownChartExtensions_AddItem__1_Spectre_Console_BreakdownChart___0_" data-uid="Spectre.Console.BreakdownChartExtensions.AddItem``1(Spectre.Console.BreakdownChart,``0)">
+  AddItem&lt;T&gt;(BreakdownChart, T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BreakdownChart AddItem&lt;T&gt;(this BreakdownChart chart, T item) where T : IBreakdownChartItem</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>chart</code> <a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+    <dt><code>item</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_BreakdownChartExtensions_AddItems_" data-uid="Spectre.Console.BreakdownChartExtensions.AddItems*"></a>
+
+  <h3 id="Spectre_Console_BreakdownChartExtensions_AddItems__1_Spectre_Console_BreakdownChart_System_Collections_Generic_IEnumerable___0__" data-uid="Spectre.Console.BreakdownChartExtensions.AddItems``1(Spectre.Console.BreakdownChart,System.Collections.Generic.IEnumerable{``0})">
+  AddItems&lt;T&gt;(BreakdownChart, IEnumerable&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BreakdownChart AddItems&lt;T&gt;(this BreakdownChart chart, IEnumerable&lt;T&gt; items) where T : IBreakdownChartItem</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>chart</code> <a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+    <dt><code>items</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_BreakdownChartExtensions_AddItems_" data-uid="Spectre.Console.BreakdownChartExtensions.AddItems*"></a>
+
+  <h3 id="Spectre_Console_BreakdownChartExtensions_AddItems__1_Spectre_Console_BreakdownChart_System_Collections_Generic_IEnumerable___0__System_Func___0_Spectre_Console_IBreakdownChartItem__" data-uid="Spectre.Console.BreakdownChartExtensions.AddItems``1(Spectre.Console.BreakdownChart,System.Collections.Generic.IEnumerable{``0},System.Func{``0,Spectre.Console.IBreakdownChartItem})">
+  AddItems&lt;T&gt;(BreakdownChart, IEnumerable&lt;T&gt;, Func&lt;T, IBreakdownChartItem&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BreakdownChart AddItems&lt;T&gt;(this BreakdownChart chart, IEnumerable&lt;T&gt; items, Func&lt;T, IBreakdownChartItem&gt; converter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>chart</code> <a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+    <dt><code>items</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+    <dt><code>converter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="Spectre.Console.IBreakdownChartItem.html">IBreakdownChartItem</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_BreakdownChartExtensions_Compact_" data-uid="Spectre.Console.BreakdownChartExtensions.Compact*"></a>
+
+  <h3 id="Spectre_Console_BreakdownChartExtensions_Compact_Spectre_Console_BreakdownChart_" data-uid="Spectre.Console.BreakdownChartExtensions.Compact(Spectre.Console.BreakdownChart)">
+  Compact(BreakdownChart)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BreakdownChart Compact(this BreakdownChart chart)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>chart</code> <a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_BreakdownChartExtensions_Compact_" data-uid="Spectre.Console.BreakdownChartExtensions.Compact*"></a>
+
+  <h3 id="Spectre_Console_BreakdownChartExtensions_Compact_Spectre_Console_BreakdownChart_System_Boolean_" data-uid="Spectre.Console.BreakdownChartExtensions.Compact(Spectre.Console.BreakdownChart,System.Boolean)">
+  Compact(BreakdownChart, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BreakdownChart Compact(this BreakdownChart chart, bool compact)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>chart</code> <a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+    <dt><code>compact</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_BreakdownChartExtensions_FullSize_" data-uid="Spectre.Console.BreakdownChartExtensions.FullSize*"></a>
+
+  <h3 id="Spectre_Console_BreakdownChartExtensions_FullSize_Spectre_Console_BreakdownChart_" data-uid="Spectre.Console.BreakdownChartExtensions.FullSize(Spectre.Console.BreakdownChart)">
+  FullSize(BreakdownChart)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BreakdownChart FullSize(this BreakdownChart chart)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>chart</code> <a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_BreakdownChartExtensions_HideTagValues_" data-uid="Spectre.Console.BreakdownChartExtensions.HideTagValues*"></a>
+
+  <h3 id="Spectre_Console_BreakdownChartExtensions_HideTagValues_Spectre_Console_BreakdownChart_" data-uid="Spectre.Console.BreakdownChartExtensions.HideTagValues(Spectre.Console.BreakdownChart)">
+  HideTagValues(BreakdownChart)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BreakdownChart HideTagValues(this BreakdownChart chart)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>chart</code> <a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_BreakdownChartExtensions_HideTags_" data-uid="Spectre.Console.BreakdownChartExtensions.HideTags*"></a>
+
+  <h3 id="Spectre_Console_BreakdownChartExtensions_HideTags_Spectre_Console_BreakdownChart_" data-uid="Spectre.Console.BreakdownChartExtensions.HideTags(Spectre.Console.BreakdownChart)">
+  HideTags(BreakdownChart)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BreakdownChart HideTags(this BreakdownChart chart)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>chart</code> <a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_BreakdownChartExtensions_ShowPercentage_" data-uid="Spectre.Console.BreakdownChartExtensions.ShowPercentage*"></a>
+
+  <h3 id="Spectre_Console_BreakdownChartExtensions_ShowPercentage_Spectre_Console_BreakdownChart_" data-uid="Spectre.Console.BreakdownChartExtensions.ShowPercentage(Spectre.Console.BreakdownChart)">
+  ShowPercentage(BreakdownChart)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BreakdownChart ShowPercentage(this BreakdownChart chart)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>chart</code> <a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_BreakdownChartExtensions_ShowTagValues_" data-uid="Spectre.Console.BreakdownChartExtensions.ShowTagValues*"></a>
+
+  <h3 id="Spectre_Console_BreakdownChartExtensions_ShowTagValues_Spectre_Console_BreakdownChart_" data-uid="Spectre.Console.BreakdownChartExtensions.ShowTagValues(Spectre.Console.BreakdownChart)">
+  ShowTagValues(BreakdownChart)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BreakdownChart ShowTagValues(this BreakdownChart chart)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>chart</code> <a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_BreakdownChartExtensions_ShowTagValues_" data-uid="Spectre.Console.BreakdownChartExtensions.ShowTagValues*"></a>
+
+  <h3 id="Spectre_Console_BreakdownChartExtensions_ShowTagValues_Spectre_Console_BreakdownChart_System_Boolean_" data-uid="Spectre.Console.BreakdownChartExtensions.ShowTagValues(Spectre.Console.BreakdownChart,System.Boolean)">
+  ShowTagValues(BreakdownChart, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BreakdownChart ShowTagValues(this BreakdownChart chart, bool show)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>chart</code> <a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+    <dt><code>show</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_BreakdownChartExtensions_ShowTags_" data-uid="Spectre.Console.BreakdownChartExtensions.ShowTags*"></a>
+
+  <h3 id="Spectre_Console_BreakdownChartExtensions_ShowTags_Spectre_Console_BreakdownChart_" data-uid="Spectre.Console.BreakdownChartExtensions.ShowTags(Spectre.Console.BreakdownChart)">
+  ShowTags(BreakdownChart)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BreakdownChart ShowTags(this BreakdownChart chart)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>chart</code> <a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_BreakdownChartExtensions_ShowTags_" data-uid="Spectre.Console.BreakdownChartExtensions.ShowTags*"></a>
+
+  <h3 id="Spectre_Console_BreakdownChartExtensions_ShowTags_Spectre_Console_BreakdownChart_System_Boolean_" data-uid="Spectre.Console.BreakdownChartExtensions.ShowTags(Spectre.Console.BreakdownChart,System.Boolean)">
+  ShowTags(BreakdownChart, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BreakdownChart ShowTags(this BreakdownChart chart, bool show)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>chart</code> <a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+    <dt><code>show</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_BreakdownChartExtensions_UseValueFormatter_" data-uid="Spectre.Console.BreakdownChartExtensions.UseValueFormatter*"></a>
+
+  <h3 id="Spectre_Console_BreakdownChartExtensions_UseValueFormatter_Spectre_Console_BreakdownChart_System_Func_System_Double_System_Globalization_CultureInfo_System_String__" data-uid="Spectre.Console.BreakdownChartExtensions.UseValueFormatter(Spectre.Console.BreakdownChart,System.Func{System.Double,System.Globalization.CultureInfo,System.String})">
+  UseValueFormatter(BreakdownChart, Func&lt;double, CultureInfo, string&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BreakdownChart UseValueFormatter(this BreakdownChart chart, Func&lt;double, CultureInfo, string&gt;? func)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>chart</code> <a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo">CultureInfo</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_BreakdownChartExtensions_UseValueFormatter_" data-uid="Spectre.Console.BreakdownChartExtensions.UseValueFormatter*"></a>
+
+  <h3 id="Spectre_Console_BreakdownChartExtensions_UseValueFormatter_Spectre_Console_BreakdownChart_System_Func_System_Double_System_String__" data-uid="Spectre.Console.BreakdownChartExtensions.UseValueFormatter(Spectre.Console.BreakdownChart,System.Func{System.Double,System.String})">
+  UseValueFormatter(BreakdownChart, Func&lt;double, string&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BreakdownChart UseValueFormatter(this BreakdownChart chart, Func&lt;double, string&gt;? func)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>chart</code> <a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_BreakdownChartExtensions_Width_" data-uid="Spectre.Console.BreakdownChartExtensions.Width*"></a>
+
+  <h3 id="Spectre_Console_BreakdownChartExtensions_Width_Spectre_Console_BreakdownChart_System_Nullable_System_Int32__" data-uid="Spectre.Console.BreakdownChartExtensions.Width(Spectre.Console.BreakdownChart,System.Nullable{System.Int32})">
+  Width(BreakdownChart, int?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BreakdownChart Width(this BreakdownChart chart, int? width)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>chart</code> <a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.BreakdownChart.html">BreakdownChart</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

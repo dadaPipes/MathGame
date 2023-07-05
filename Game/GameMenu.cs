@@ -1,14 +1,16 @@
 ﻿using Spectre.Console;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Game
 {
+    /// <summary>
+    /// Test Class XML comment
+    /// </summary>
     public class GameMenu
     {
+        /// <summary>
+        /// Test method XML comment
+        /// </summary>
+        /// <returns></returns>
         public string GameChoise()
         {
             var selectedGame = AnsiConsole.Prompt(

@@ -1,0 +1,599 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Recorder
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Recorder
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Spectre.Console.Recorder">
+
+
+
+  <h1 id="Spectre_Console_Recorder" data-uid="Spectre.Console.Recorder" class="text-break">
+    Class Recorder
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Spectre.html">Spectre</a>.<a class="xref" href="Spectre.Console.html">Console</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Spectre.Console.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Recorder : IAnsiConsole, IDisposable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Recorder</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Spectre.Console.IAnsiConsole.html">IAnsiConsole</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Spectre.Console.Advanced.AnsiConsoleExtensions.html#Spectre_Console_Advanced_AnsiConsoleExtensions_ToAnsi_Spectre_Console_IAnsiConsole_Spectre_Console_Rendering_IRenderable_">AnsiConsoleExtensions.ToAnsi(IAnsiConsole, IRenderable)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.Advanced.AnsiConsoleExtensions.html#Spectre_Console_Advanced_AnsiConsoleExtensions_WriteAnsi_Spectre_Console_IAnsiConsole_System_String_">AnsiConsoleExtensions.WriteAnsi(IAnsiConsole, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_AlternateScreen_Spectre_Console_IAnsiConsole_System_Action_">AnsiConsoleExtensions.AlternateScreen(IAnsiConsole, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_Ask__1_Spectre_Console_IAnsiConsole_System_String_System_Globalization_CultureInfo_">AnsiConsoleExtensions.Ask&lt;T&gt;(IAnsiConsole, string, CultureInfo?)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_Ask__1_Spectre_Console_IAnsiConsole_System_String_">AnsiConsoleExtensions.Ask&lt;T&gt;(IAnsiConsole, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_Clear_Spectre_Console_IAnsiConsole_">AnsiConsoleExtensions.Clear(IAnsiConsole)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_Confirm_Spectre_Console_IAnsiConsole_System_String_System_Boolean_">AnsiConsoleExtensions.Confirm(IAnsiConsole, string, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_CreateRecorder_Spectre_Console_IAnsiConsole_">AnsiConsoleExtensions.CreateRecorder(IAnsiConsole)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_Live_Spectre_Console_IAnsiConsole_Spectre_Console_Rendering_IRenderable_">AnsiConsoleExtensions.Live(IAnsiConsole, IRenderable)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_Markup_Spectre_Console_IAnsiConsole_System_IFormatProvider_System_String_System_Object___">AnsiConsoleExtensions.Markup(IAnsiConsole, IFormatProvider, string, params object[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_Markup_Spectre_Console_IAnsiConsole_System_String_System_Object___">AnsiConsoleExtensions.Markup(IAnsiConsole, string, params object[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_Markup_Spectre_Console_IAnsiConsole_System_String_">AnsiConsoleExtensions.Markup(IAnsiConsole, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_MarkupInterpolated_Spectre_Console_IAnsiConsole_System_FormattableString_">AnsiConsoleExtensions.MarkupInterpolated(IAnsiConsole, FormattableString)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_MarkupInterpolated_Spectre_Console_IAnsiConsole_System_IFormatProvider_System_FormattableString_">AnsiConsoleExtensions.MarkupInterpolated(IAnsiConsole, IFormatProvider, FormattableString)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_MarkupLine_Spectre_Console_IAnsiConsole_System_IFormatProvider_System_String_System_Object___">AnsiConsoleExtensions.MarkupLine(IAnsiConsole, IFormatProvider, string, params object[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_MarkupLine_Spectre_Console_IAnsiConsole_System_String_System_Object___">AnsiConsoleExtensions.MarkupLine(IAnsiConsole, string, params object[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_MarkupLine_Spectre_Console_IAnsiConsole_System_String_">AnsiConsoleExtensions.MarkupLine(IAnsiConsole, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_MarkupLineInterpolated_Spectre_Console_IAnsiConsole_System_FormattableString_">AnsiConsoleExtensions.MarkupLineInterpolated(IAnsiConsole, FormattableString)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_MarkupLineInterpolated_Spectre_Console_IAnsiConsole_System_IFormatProvider_System_FormattableString_">AnsiConsoleExtensions.MarkupLineInterpolated(IAnsiConsole, IFormatProvider, FormattableString)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_Progress_Spectre_Console_IAnsiConsole_">AnsiConsoleExtensions.Progress(IAnsiConsole)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_Prompt__1_Spectre_Console_IAnsiConsole_Spectre_Console_IPrompt___0__">AnsiConsoleExtensions.Prompt&lt;T&gt;(IAnsiConsole, IPrompt&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_Render_Spectre_Console_IAnsiConsole_Spectre_Console_Rendering_IRenderable_">AnsiConsoleExtensions.Render(IAnsiConsole, IRenderable)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_RunExclusive__1_Spectre_Console_IAnsiConsole_System_Func___0__">AnsiConsoleExtensions.RunExclusive&lt;T&gt;(IAnsiConsole, Func&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_RunExclusive__1_Spectre_Console_IAnsiConsole_System_Func_System_Threading_Tasks_Task___0___">AnsiConsoleExtensions.RunExclusive&lt;T&gt;(IAnsiConsole, Func&lt;Task&lt;T&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_Status_Spectre_Console_IAnsiConsole_">AnsiConsoleExtensions.Status(IAnsiConsole)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_Write_Spectre_Console_IAnsiConsole_System_String_Spectre_Console_Style_">AnsiConsoleExtensions.Write(IAnsiConsole, string, Style?)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_Write_Spectre_Console_IAnsiConsole_System_String_">AnsiConsoleExtensions.Write(IAnsiConsole, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_WriteException_Spectre_Console_IAnsiConsole_System_Exception_Spectre_Console_ExceptionFormats_">AnsiConsoleExtensions.WriteException(IAnsiConsole, Exception, ExceptionFormats)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_WriteException_Spectre_Console_IAnsiConsole_System_Exception_Spectre_Console_ExceptionSettings_">AnsiConsoleExtensions.WriteException(IAnsiConsole, Exception, ExceptionSettings)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_WriteLine_Spectre_Console_IAnsiConsole_">AnsiConsoleExtensions.WriteLine(IAnsiConsole)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_WriteLine_Spectre_Console_IAnsiConsole_System_String_Spectre_Console_Style_">AnsiConsoleExtensions.WriteLine(IAnsiConsole, string, Style?)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.AnsiConsoleExtensions.html#Spectre_Console_AnsiConsoleExtensions_WriteLine_Spectre_Console_IAnsiConsole_System_String_">AnsiConsoleExtensions.WriteLine(IAnsiConsole, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.RecorderExtensions.html#Spectre_Console_RecorderExtensions_ExportHtml_Spectre_Console_Recorder_">RecorderExtensions.ExportHtml(Recorder)</a>
+  </div>
+  <div>
+      <a class="xref" href="Spectre.Console.RecorderExtensions.html#Spectre_Console_RecorderExtensions_ExportText_Spectre_Console_Recorder_">RecorderExtensions.ExportText(Recorder)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Spectre_Console_Recorder__ctor_" data-uid="Spectre.Console.Recorder.#ctor*"></a>
+
+  <h3 id="Spectre_Console_Recorder__ctor_Spectre_Console_IAnsiConsole_" data-uid="Spectre.Console.Recorder.#ctor(Spectre.Console.IAnsiConsole)">
+  Recorder(IAnsiConsole)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Recorder(IAnsiConsole console)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>console</code> <a class="xref" href="Spectre.Console.IAnsiConsole.html">IAnsiConsole</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Spectre_Console_Recorder_Cursor_" data-uid="Spectre.Console.Recorder.Cursor*"></a>
+
+  <h3 id="Spectre_Console_Recorder_Cursor" data-uid="Spectre.Console.Recorder.Cursor">
+  Cursor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAnsiConsoleCursor Cursor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.IAnsiConsoleCursor.html">IAnsiConsoleCursor</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Recorder_ExclusivityMode_" data-uid="Spectre.Console.Recorder.ExclusivityMode*"></a>
+
+  <h3 id="Spectre_Console_Recorder_ExclusivityMode" data-uid="Spectre.Console.Recorder.ExclusivityMode">
+  ExclusivityMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IExclusivityMode ExclusivityMode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.IExclusivityMode.html">IExclusivityMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Recorder_Input_" data-uid="Spectre.Console.Recorder.Input*"></a>
+
+  <h3 id="Spectre_Console_Recorder_Input" data-uid="Spectre.Console.Recorder.Input">
+  Input
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAnsiConsoleInput Input { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.IAnsiConsoleInput.html">IAnsiConsoleInput</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Recorder_Pipeline_" data-uid="Spectre.Console.Recorder.Pipeline*"></a>
+
+  <h3 id="Spectre_Console_Recorder_Pipeline" data-uid="Spectre.Console.Recorder.Pipeline">
+  Pipeline
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RenderPipeline Pipeline { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Rendering.RenderPipeline.html">RenderPipeline</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Recorder_Profile_" data-uid="Spectre.Console.Recorder.Profile*"></a>
+
+  <h3 id="Spectre_Console_Recorder_Profile" data-uid="Spectre.Console.Recorder.Profile">
+  Profile
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Profile Profile { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Profile.html">Profile</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Spectre_Console_Recorder_Clear_" data-uid="Spectre.Console.Recorder.Clear*"></a>
+
+  <h3 id="Spectre_Console_Recorder_Clear_System_Boolean_" data-uid="Spectre.Console.Recorder.Clear(System.Boolean)">
+  Clear(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear(bool home)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>home</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Recorder_Dispose_" data-uid="Spectre.Console.Recorder.Dispose*"></a>
+
+  <h3 id="Spectre_Console_Recorder_Dispose" data-uid="Spectre.Console.Recorder.Dispose">
+  Dispose()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Recorder_Export_" data-uid="Spectre.Console.Recorder.Export*"></a>
+
+  <h3 id="Spectre_Console_Recorder_Export_Spectre_Console_Rendering_IAnsiConsoleEncoder_" data-uid="Spectre.Console.Recorder.Export(Spectre.Console.Rendering.IAnsiConsoleEncoder)">
+  Export(IAnsiConsoleEncoder)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Export(IAnsiConsoleEncoder encoder)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>encoder</code> <a class="xref" href="Spectre.Console.Rendering.IAnsiConsoleEncoder.html">IAnsiConsoleEncoder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_Recorder_Write_" data-uid="Spectre.Console.Recorder.Write*"></a>
+
+  <h3 id="Spectre_Console_Recorder_Write_Spectre_Console_Rendering_IRenderable_" data-uid="Spectre.Console.Recorder.Write(Spectre.Console.Rendering.IRenderable)">
+  Write(IRenderable)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Write(IRenderable renderable)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>renderable</code> <a class="xref" href="Spectre.Console.Rendering.IRenderable.html">IRenderable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

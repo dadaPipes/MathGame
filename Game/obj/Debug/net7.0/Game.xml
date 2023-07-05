@@ -4,6 +4,17 @@
         <name>Game</name>
     </assembly>
     <members>
+        <member name="T:Game.GameMenu">
+            <summary>
+            Test Class XML comment
+            </summary>
+        </member>
+        <member name="M:Game.GameMenu.GameChoise">
+            <summary>
+            Test method XML comment
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:Game.Program.Main(System.String[])">
             <summary>
             Test with XML comments

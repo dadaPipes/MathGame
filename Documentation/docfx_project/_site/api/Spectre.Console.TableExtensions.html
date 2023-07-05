@@ -1,0 +1,1014 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class TableExtensions
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class TableExtensions
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Spectre.Console.TableExtensions">
+
+
+
+  <h1 id="Spectre_Console_TableExtensions" data-uid="Spectre.Console.TableExtensions" class="text-break">
+    Class TableExtensions
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Spectre.html">Spectre</a>.<a class="xref" href="Spectre.Console.html">Console</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Spectre.Console.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class TableExtensions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">TableExtensions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Spectre_Console_TableExtensions_AddColumn_" data-uid="Spectre.Console.TableExtensions.AddColumn*"></a>
+
+  <h3 id="Spectre_Console_TableExtensions_AddColumn_Spectre_Console_Table_System_String_System_Action_Spectre_Console_TableColumn__" data-uid="Spectre.Console.TableExtensions.AddColumn(Spectre.Console.Table,System.String,System.Action{Spectre.Console.TableColumn})">
+  AddColumn(Table, string, Action&lt;TableColumn&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Table AddColumn(this Table table, string column, Action&lt;TableColumn&gt;? configure = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>table</code> <a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+    <dt><code>column</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>configure</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Spectre.Console.TableColumn.html">TableColumn</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TableExtensions_AddColumns_" data-uid="Spectre.Console.TableExtensions.AddColumns*"></a>
+
+  <h3 id="Spectre_Console_TableExtensions_AddColumns_Spectre_Console_Table_Spectre_Console_TableColumn___" data-uid="Spectre.Console.TableExtensions.AddColumns(Spectre.Console.Table,Spectre.Console.TableColumn[])">
+  AddColumns(Table, params TableColumn[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Table AddColumns(this Table table, params TableColumn[] columns)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>table</code> <a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+    <dt><code>columns</code> <a class="xref" href="Spectre.Console.TableColumn.html">TableColumn</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TableExtensions_AddColumns_" data-uid="Spectre.Console.TableExtensions.AddColumns*"></a>
+
+  <h3 id="Spectre_Console_TableExtensions_AddColumns_Spectre_Console_Table_System_String___" data-uid="Spectre.Console.TableExtensions.AddColumns(Spectre.Console.Table,System.String[])">
+  AddColumns(Table, params string[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Table AddColumns(this Table table, params string[] columns)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>table</code> <a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+    <dt><code>columns</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TableExtensions_AddEmptyRow_" data-uid="Spectre.Console.TableExtensions.AddEmptyRow*"></a>
+
+  <h3 id="Spectre_Console_TableExtensions_AddEmptyRow_Spectre_Console_Table_" data-uid="Spectre.Console.TableExtensions.AddEmptyRow(Spectre.Console.Table)">
+  AddEmptyRow(Table)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Table AddEmptyRow(this Table table)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>table</code> <a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TableExtensions_AddRow_" data-uid="Spectre.Console.TableExtensions.AddRow*"></a>
+
+  <h3 id="Spectre_Console_TableExtensions_AddRow_Spectre_Console_Table_Spectre_Console_Rendering_IRenderable___" data-uid="Spectre.Console.TableExtensions.AddRow(Spectre.Console.Table,Spectre.Console.Rendering.IRenderable[])">
+  AddRow(Table, params IRenderable[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Table AddRow(this Table table, params IRenderable[] columns)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>table</code> <a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+    <dt><code>columns</code> <a class="xref" href="Spectre.Console.Rendering.IRenderable.html">IRenderable</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TableExtensions_AddRow_" data-uid="Spectre.Console.TableExtensions.AddRow*"></a>
+
+  <h3 id="Spectre_Console_TableExtensions_AddRow_Spectre_Console_Table_System_Collections_Generic_IEnumerable_Spectre_Console_Rendering_IRenderable__" data-uid="Spectre.Console.TableExtensions.AddRow(Spectre.Console.Table,System.Collections.Generic.IEnumerable{Spectre.Console.Rendering.IRenderable})">
+  AddRow(Table, IEnumerable&lt;IRenderable&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Table AddRow(this Table table, IEnumerable&lt;IRenderable&gt; columns)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>table</code> <a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+    <dt><code>columns</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Spectre.Console.Rendering.IRenderable.html">IRenderable</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TableExtensions_AddRow_" data-uid="Spectre.Console.TableExtensions.AddRow*"></a>
+
+  <h3 id="Spectre_Console_TableExtensions_AddRow_Spectre_Console_Table_System_String___" data-uid="Spectre.Console.TableExtensions.AddRow(Spectre.Console.Table,System.String[])">
+  AddRow(Table, params string[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Table AddRow(this Table table, params string[] columns)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>table</code> <a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+    <dt><code>columns</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TableExtensions_Caption_" data-uid="Spectre.Console.TableExtensions.Caption*"></a>
+
+  <h3 id="Spectre_Console_TableExtensions_Caption_Spectre_Console_Table_Spectre_Console_TableTitle_" data-uid="Spectre.Console.TableExtensions.Caption(Spectre.Console.Table,Spectre.Console.TableTitle)">
+  Caption(Table, TableTitle)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Table Caption(this Table table, TableTitle caption)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>table</code> <a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+    <dt><code>caption</code> <a class="xref" href="Spectre.Console.TableTitle.html">TableTitle</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TableExtensions_Caption_" data-uid="Spectre.Console.TableExtensions.Caption*"></a>
+
+  <h3 id="Spectre_Console_TableExtensions_Caption_Spectre_Console_Table_System_String_Spectre_Console_Style_" data-uid="Spectre.Console.TableExtensions.Caption(Spectre.Console.Table,System.String,Spectre.Console.Style)">
+  Caption(Table, string, Style?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Table Caption(this Table table, string text, Style? style = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>table</code> <a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>style</code> <a class="xref" href="Spectre.Console.Style.html">Style</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TableExtensions_HideFooters_" data-uid="Spectre.Console.TableExtensions.HideFooters*"></a>
+
+  <h3 id="Spectre_Console_TableExtensions_HideFooters_Spectre_Console_Table_" data-uid="Spectre.Console.TableExtensions.HideFooters(Spectre.Console.Table)">
+  HideFooters(Table)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Table HideFooters(this Table table)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>table</code> <a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TableExtensions_HideHeaders_" data-uid="Spectre.Console.TableExtensions.HideHeaders*"></a>
+
+  <h3 id="Spectre_Console_TableExtensions_HideHeaders_Spectre_Console_Table_" data-uid="Spectre.Console.TableExtensions.HideHeaders(Spectre.Console.Table)">
+  HideHeaders(Table)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Table HideHeaders(this Table table)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>table</code> <a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TableExtensions_InsertRow_" data-uid="Spectre.Console.TableExtensions.InsertRow*"></a>
+
+  <h3 id="Spectre_Console_TableExtensions_InsertRow_Spectre_Console_Table_System_Int32_Spectre_Console_Rendering_IRenderable___" data-uid="Spectre.Console.TableExtensions.InsertRow(Spectre.Console.Table,System.Int32,Spectre.Console.Rendering.IRenderable[])">
+  InsertRow(Table, int, params IRenderable[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Table InsertRow(this Table table, int index, params IRenderable[] columns)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>table</code> <a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>columns</code> <a class="xref" href="Spectre.Console.Rendering.IRenderable.html">IRenderable</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TableExtensions_InsertRow_" data-uid="Spectre.Console.TableExtensions.InsertRow*"></a>
+
+  <h3 id="Spectre_Console_TableExtensions_InsertRow_Spectre_Console_Table_System_Int32_System_Collections_Generic_IEnumerable_Spectre_Console_Rendering_IRenderable__" data-uid="Spectre.Console.TableExtensions.InsertRow(Spectre.Console.Table,System.Int32,System.Collections.Generic.IEnumerable{Spectre.Console.Rendering.IRenderable})">
+  InsertRow(Table, int, IEnumerable&lt;IRenderable&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Table InsertRow(this Table table, int index, IEnumerable&lt;IRenderable&gt; columns)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>table</code> <a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>columns</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Spectre.Console.Rendering.IRenderable.html">IRenderable</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TableExtensions_InsertRow_" data-uid="Spectre.Console.TableExtensions.InsertRow*"></a>
+
+  <h3 id="Spectre_Console_TableExtensions_InsertRow_Spectre_Console_Table_System_Int32_System_String___" data-uid="Spectre.Console.TableExtensions.InsertRow(Spectre.Console.Table,System.Int32,System.String[])">
+  InsertRow(Table, int, params string[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Table InsertRow(this Table table, int index, params string[] columns)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>table</code> <a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>columns</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TableExtensions_RemoveRow_" data-uid="Spectre.Console.TableExtensions.RemoveRow*"></a>
+
+  <h3 id="Spectre_Console_TableExtensions_RemoveRow_Spectre_Console_Table_System_Int32_" data-uid="Spectre.Console.TableExtensions.RemoveRow(Spectre.Console.Table,System.Int32)">
+  RemoveRow(Table, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Table RemoveRow(this Table table, int index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>table</code> <a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TableExtensions_ShowFooters_" data-uid="Spectre.Console.TableExtensions.ShowFooters*"></a>
+
+  <h3 id="Spectre_Console_TableExtensions_ShowFooters_Spectre_Console_Table_" data-uid="Spectre.Console.TableExtensions.ShowFooters(Spectre.Console.Table)">
+  ShowFooters(Table)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Table ShowFooters(this Table table)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>table</code> <a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TableExtensions_ShowHeaders_" data-uid="Spectre.Console.TableExtensions.ShowHeaders*"></a>
+
+  <h3 id="Spectre_Console_TableExtensions_ShowHeaders_Spectre_Console_Table_" data-uid="Spectre.Console.TableExtensions.ShowHeaders(Spectre.Console.Table)">
+  ShowHeaders(Table)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Table ShowHeaders(this Table table)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>table</code> <a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TableExtensions_Title_" data-uid="Spectre.Console.TableExtensions.Title*"></a>
+
+  <h3 id="Spectre_Console_TableExtensions_Title_Spectre_Console_Table_Spectre_Console_TableTitle_" data-uid="Spectre.Console.TableExtensions.Title(Spectre.Console.Table,Spectre.Console.TableTitle)">
+  Title(Table, TableTitle)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Table Title(this Table table, TableTitle title)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>table</code> <a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+    <dt><code>title</code> <a class="xref" href="Spectre.Console.TableTitle.html">TableTitle</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TableExtensions_Title_" data-uid="Spectre.Console.TableExtensions.Title*"></a>
+
+  <h3 id="Spectre_Console_TableExtensions_Title_Spectre_Console_Table_System_String_Spectre_Console_Style_" data-uid="Spectre.Console.TableExtensions.Title(Spectre.Console.Table,System.String,Spectre.Console.Style)">
+  Title(Table, string, Style?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Table Title(this Table table, string text, Style? style = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>table</code> <a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>style</code> <a class="xref" href="Spectre.Console.Style.html">Style</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TableExtensions_UpdateCell_" data-uid="Spectre.Console.TableExtensions.UpdateCell*"></a>
+
+  <h3 id="Spectre_Console_TableExtensions_UpdateCell_Spectre_Console_Table_System_Int32_System_Int32_Spectre_Console_Rendering_IRenderable_" data-uid="Spectre.Console.TableExtensions.UpdateCell(Spectre.Console.Table,System.Int32,System.Int32,Spectre.Console.Rendering.IRenderable)">
+  UpdateCell(Table, int, int, IRenderable)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Table UpdateCell(this Table table, int rowIndex, int columnIndex, IRenderable cellData)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>table</code> <a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+    <dt><code>rowIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>columnIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>cellData</code> <a class="xref" href="Spectre.Console.Rendering.IRenderable.html">IRenderable</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TableExtensions_UpdateCell_" data-uid="Spectre.Console.TableExtensions.UpdateCell*"></a>
+
+  <h3 id="Spectre_Console_TableExtensions_UpdateCell_Spectre_Console_Table_System_Int32_System_Int32_System_String_" data-uid="Spectre.Console.TableExtensions.UpdateCell(Spectre.Console.Table,System.Int32,System.Int32,System.String)">
+  UpdateCell(Table, int, int, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Table UpdateCell(this Table table, int rowIndex, int columnIndex, string cellData)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>table</code> <a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+    <dt><code>rowIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>columnIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>cellData</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Spectre_Console_TableExtensions_Width_" data-uid="Spectre.Console.TableExtensions.Width*"></a>
+
+  <h3 id="Spectre_Console_TableExtensions_Width_Spectre_Console_Table_System_Nullable_System_Int32__" data-uid="Spectre.Console.TableExtensions.Width(Spectre.Console.Table,System.Nullable{System.Int32})">
+  Width(Table, int?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Table Width(this Table table, int? width)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>table</code> <a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Spectre.Console.Table.html">Table</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
