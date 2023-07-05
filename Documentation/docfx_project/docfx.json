@@ -4,7 +4,7 @@
       "src": [
         {
           "files": [
-            "bin/Debug/net7.0/Game.xml" // points to the XML comments file in ´Game´
+            "src/**.csproj"
           ]
         }
       ],
