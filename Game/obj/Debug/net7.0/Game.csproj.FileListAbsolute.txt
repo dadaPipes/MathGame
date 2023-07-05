@@ -15,3 +15,5 @@ C:\Users\dadaP\source\repos\MathGame\Game\obj\Debug\net7.0\refint\Game.dll
 C:\Users\dadaP\source\repos\MathGame\Game\obj\Debug\net7.0\Game.pdb
 C:\Users\dadaP\source\repos\MathGame\Game\obj\Debug\net7.0\Game.genruntimeconfig.cache
 C:\Users\dadaP\source\repos\MathGame\Game\obj\Debug\net7.0\ref\Game.dll
+C:\Users\dadaP\source\repos\MathGame\Game\bin\Debug\net7.0\Game.xml
+C:\Users\dadaP\source\repos\MathGame\Game\obj\Debug\net7.0\Game.xml

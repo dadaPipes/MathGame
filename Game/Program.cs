@@ -2,7 +2,10 @@
 {
     internal class Program
     {
-        // Test to see if workflow works after pushing to main branch, again
+        /// <summary>
+        /// Test with XML comments
+        /// </summary>
+        /// <param name="args"></param>
         private static void Main(string[] args)
         {
             var meny = new GameMenu();

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Game</name>
+    </assembly>
+    <members>
+        <member name="M:Game.Program.Main(System.String[])">
+            <summary>
+            Test with XML comments
+            </summary>
+            <param name="args"></param>
+        </member>
+    </members>
+</doc>
