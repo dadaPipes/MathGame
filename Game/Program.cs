@@ -1,15 +1,11 @@
 ﻿namespace Game
 {
-    internal class Program
+    public static class Program
     {
-        /// <summary>
-        /// Test with XML comments
-        /// </summary>
-        /// <param name="args"></param>
         private static void Main(string[] args)
         {
-            var meny = new GameMenu();
-            string chosenGame = meny.GameChoise();
+            var gameMenu = new GameMenu();
+            string chosenGame = gameMenu.GameChoise();
 
             var gameGenerator = new GameGenerator();
             gameGenerator.GameSelection(chosenGame);

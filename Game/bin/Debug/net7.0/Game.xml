@@ -4,22 +4,40 @@
         <name>Game</name>
     </assembly>
     <members>
-        <member name="T:Game.GameMenu">
+        <member name="T:Game.GameGenerator">
             <summary>
-            Test Class XML comment
+            Provides various math games
             </summary>
+        </member>
+        <member name="M:Game.GameGenerator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Game.GameGenerator"/> class.
+            </summary>
+        </member>
+        <member name="M:Game.GameGenerator.GameSelection(System.String)">
+            <summary>
+            Selects and starts a specific game based on the provided game name.
+            </summary>
+            <param name="game">The name of the game to select.</param>
+        </member>
+        <member name="M:Game.GameGenerator.ValidateInput(System.String)">
+            <summary>
+            Validates user input and prompts for a valid whole number.
+            </summary>
+            <param name="input">The user input to validate.</param>
+            <returns>The validated user input.</returns>
+        </member>
+        <member name="M:Game.GameGenerator.DisplayResult(System.Boolean)">
+            <summary>
+            Displays the result message based on the correctness of the answer.
+            </summary>
+            <param name="isCorrect">Indicates whether the answer is correct.</param>
         </member>
         <member name="M:Game.GameMenu.GameChoise">
             <summary>
-            Test method XML comment
+            Prompts the user to select a game and returns the selected game as a string.
             </summary>
-            <returns></returns>
-        </member>
-        <member name="M:Game.Program.Main(System.String[])">
-            <summary>
-            Test with XML comments
-            </summary>
-            <param name="args"></param>
+            <returns>The selected game as a string.</returns>
         </member>
     </members>
 </doc>

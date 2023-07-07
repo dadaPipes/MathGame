@@ -2,15 +2,12 @@
 
 namespace Game
 {
-    /// <summary>
-    /// Test Class XML comment
-    /// </summary>
     public class GameMenu
     {
         /// <summary>
-        /// Test method XML comment
+        /// Prompts the user to select a game and returns the selected game as a string.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>The selected game as a string.</returns>
         public string GameChoise()
         {
             var selectedGame = AnsiConsole.Prompt(
