@@ -2258,6 +2258,36 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/StoreResultsInATextfile/UC.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/StoreResultsInATextfile/UC.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/TrackAndDisplayScore/SSD.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/TrackAndDisplayScore/SSD.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/TrackAndDisplayScore/UC.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/TrackAndDisplayScore/UC.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {

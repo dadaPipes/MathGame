@@ -1,8 +1,18 @@
 - name: Introduction
   href: intro.md
-- name: SelectionFromMenu
+- name: Selection From Menu
   items:
     - name: Use Case
       href: SelectionFromMenu/UC.md
     - name: System Sequence Diagram
       href: SelectionFromMenu/SSD.md
+- name: Track and Display Score
+  items:
+    - name: Use Case
+      href: TrackAndDisplayScore/UC.md
+    - name: SSD
+      href: TrackAndDisplayScore/SSD.md 
+- name: Store Result In Textfile
+  items:
+    - name: Use Case
+      href: StoreResultsInATextfile/UC.md

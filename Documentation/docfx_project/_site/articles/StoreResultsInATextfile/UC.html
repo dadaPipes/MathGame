@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Store Results in a Text File </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Store Results in a Text File ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/dadaPipes/MathGame/blob/main/Documentation/docfx_project/articles/StoreResultsInATextfile/UC.md/#L1">
+  </head>
+
+  <script type="module">
+    import options from './../../public/main.js'
+    import { init } from './../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="store-results-in-a-text-file">Store Results in a Text File</h1>
+
+<h2 id="description">Description</h2>
+<ul>
+<li>This use case describes the functionality of allowing the player to create a text file and store the game results in that file for future reference.</li>
+</ul>
+<h2 id="frequency">Frequency</h2>
+<ul>
+<li>This use case occurs when the player chooses to store the game results in a text file.</li>
+</ul>
+<h2 id="actors">Actors</h2>
+<ul>
+<li>Player</li>
+</ul>
+<h2 id="goal">Goal</h2>
+<ul>
+<li>The goal of this use case is to provide the player with the ability to create a text file and store the game results for future reference.</li>
+</ul>
+<h2 id="preconditions">Preconditions</h2>
+<ul>
+<li>The player has completed a game session.</li>
+<li>The game session includes a scoring mechanism.</li>
+</ul>
+<h2 id="triggers">Triggers</h2>
+<ul>
+<li>The player chooses to store the game results in a text file.</li>
+</ul>
+<h2 id="basic-flow">Basic Flow</h2>
+<ol>
+<li>The player completes a game session.</li>
+<li>The game calculates the score based on the player's performance.</li>
+<li>The system updates the player's score and displays it in the game interface.</li>
+<li>The player chooses to store the game results.</li>
+<li>The system prompts the player to enter a filename for the text file.</li>
+<li>The player enters a filename.</li>
+<li>The system creates a text file with the provided filename.</li>
+<li>The system retrieves the relevant game results, such as the player's score, date, and any other necessary details.</li>
+<li>The system writes the game results to the text file.</li>
+<li>The system confirms successful storage of the game results.</li>
+<li>The player can access the text file and view the stored game results.</li>
+</ol>
+<h2 id="alternate-flow">Alternate Flow</h2>
+<ul>
+<li>None</li>
+</ul>
+<h2 id="post-conditions">Post-Conditions</h2>
+<ul>
+<li>The game results are stored in a text file.</li>
+<li>The player can access the text file and review the stored game results.</li>
+</ul>
+<h2 id="assumptions">Assumptions</h2>
+<ul>
+<li>The game interface provides a dedicated option for the player to store the game results.
+The system has access to the file system and sufficient permissions to create and write to text files.</li>
+<li>The player's input for the filename adheres to the file system rules and limitations.</li>
+</ul>
+<h2 id="dependencies">Dependencies</h2>
+<ul>
+<li>The game session must be completed for the score and relevant game results to be available for storage.</li>
+<li>The player's input for the filename must conform to the file system rules and limitations.</li>
+</ul>
+<h2 id="exceptions">Exceptions</h2>
+<ul>
+<li>Errors may occur if there are issues with creating the text file, writing the game results to the file, or confirming the successful storage.</li>
+<li>If any errors occur, they will be handled by displaying an error message to the player and offering options to retry, choose a different filename, or exit the process.</li>
+</ul>
+<h2 id="data-validation">Data Validation</h2>
+<ul>
+<li>The system validates the player's input for the filename to ensure it meets the file system requirements.</li>
+<li>If data validation fails, an error message is displayed to the player, indicating that the input for the filename is invalid.</li>
+</ul>
+<h2 id="error-handling">Error Handling</h2>
+<ul>
+<li>If there are any errors during the text file creation, game results writing, or confirmation process, they are reported to the player through error messages in the game interface.</li>
+<li>The error messages provide clear information about the encountered issue and suggest possible actions, such as retrying the operation, choosing a different filename, or contacting support.</li>
+<li>The game system may log any errors for further analysis or troubleshooting purposes.
+Optionals: None</li>
+</ul>
+<h2 id="priority">Priority</h2>
+<ul>
+<li>Medium</li>
+</ul>
+<h2 id="additional-details">Additional Details</h2>
+<ul>
+<li>To enhance the storage functionality, the system could provide options for the player to choose the location of the text file or customize the format of the stored game results. Additionally, the game interface could include a feature to manage the stored result files, allowing players to organize, rename, or delete them as needed.</li>
+</ul>
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/dadaPipes/MathGame/blob/main/Documentation/docfx_project/articles/StoreResultsInATextfile/UC.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
